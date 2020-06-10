@@ -1,0 +1,86 @@
+.footer{
+    min-height: 658px;
+    .footer__nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 0;
+        .footer__nav-item{
+            cursor: pointer;
+            font-size: 24px;
+            font-weight: 500;
+        }
+    }
+    .footer__border{
+        margin-top: 60px;
+        max-width: 1755px;
+        height: 1px;
+        margin: 0 auto;
+        background-color: #FF0615;
+    }
+    .footer__wrapper{
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        .footer__wrapper-contacts{
+            padding-top: 60px;
+            .footer__wrapper-contacts-title{
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .locality{
+                padding-top: 20px;
+                font-weight: 400;
+                font-size: 18px;
+            }
+            .street-address{
+                padding-top: 8px;
+                font-weight: 400;
+                font-size: 18px;
+            }
+            .tel{
+                display: block;
+                margin-top: 19px;
+                color: #FF0615;
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 18px;
+            }
+            .email{
+                display: block;
+                margin-top: 18px;
+                text-decoration: none;
+                color: #000;
+                font-size: 18px;
+            }
+            .in-adress{
+                padding-top: 60px;
+                font-size: 18px;
+                .index{
+                    padding-top: 6px;
+                    font-size: 18px;
+                }
+                .street-address{
+                    padding-top: 7px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .footer__wrapper-item{
+            padding-top: 60px;
+            text-align: right;
+            .footer__wrapper-item-download{
+                display: block;
+                font-size: 24px;
+                text-decoration: none;
+                font-weight: 500;
+                color: #000000;
+            }
+            .footer__wrapper-item-download:not(:first-child){
+                margin-top: 20px;
+            }
+            .footer__wrapper-item-logo{
+                padding-top: 283px;
+            }
+        }
+    }
+}

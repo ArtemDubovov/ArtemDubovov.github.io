@@ -1,0 +1,64 @@
+body { background-color: #fff; }
+
+* { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0; font-family: 'Muller','sans-serif'; }
+
+.container { max-width: 1755px; margin: 0 auto; }
+
+@font-face { font-family: 'Muller'; src: local("Muller Regular"), local("./../fonts/Muller-Regular"), url("./../fonts/MullerRegular.woff2") format("woff2"), url("./../fonts/MullerRegular.woff") format("woff"), url("./../fonts/MullerRegular.ttf") format("truetype"); font-weight: 400; font-style: normal; }
+@font-face { font-family: 'Muller'; src: local("Muller Medium"), local("./../fonts/Muller-Medium"), url("./../fonts/MullerMedium.woff2") format("woff2"), url("./../fonts/MullerMedium.woff") format("woff"), url("./../fonts/MullerMedium.ttf") format("truetype"); font-weight: 500; font-style: normal; }
+.header { min-height: 78px; padding-top: 60px; }
+.header .container__header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.header .container__header .header__logo { font-size: 28px; }
+.header .container__header .header__logo a { text-decoration: none; color: black; font-weight: 700; }
+.header .container__header .header__menu { display: -webkit-box; display: -ms-flexbox; display: flex; list-style-type: none; padding-top: 10px; }
+.header .container__header .header__menu .header__menu-item { margin-left: 76px; }
+.header .container__header .header__menu .header__menu-item a { font-size: 18px; letter-spacing: 0px; color: #000000; opacity: 1; text-decoration: none; font-weight: 400; }
+
+.carousel { padding-top: 64px; }
+.carousel .carousel__inner { max-width: 1760px; height: 747px; }
+.carousel .carousel__inner .carousel__inner-item { width: 100%; }
+.carousel .carousel__content { max-width: 752px; margin-top: 57px; text-align: left; font-size: 18px; line-height: 25px; color: #000000; font-weight: 400; }
+.carousel .carousel__content .carousel__content-title { text-align: left; font-size: 24px; color: #000000; font-weight: 500; margin-bottom: 20px; }
+.carousel .carousel__content-studio-inactive { display: none; }
+.carousel .carousel__content-studio-active { display: block; }
+.carousel .carousel__content-studio { display: none; }
+
+.slick-dots { display: -webkit-box; display: -ms-flexbox; display: flex; list-style-type: none; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; -webkit-transform: translateY(-50px); transform: translateY(-50px); margin-right: 30px; }
+.slick-dots .slick-active { color: #FFFFFF; }
+.slick-dots .slick-active button { color: #FFFFFF; }
+.slick-dots li { font-size: 18px; color: #7C7C7C; font-weight: 400; cursor: pointer; }
+.slick-dots button { width: 25px; border: none; outline: none; font-size: 18px; letter-spacing: 0px; color: #7C7C7C; opacity: 1; font-weight: 400; background: none; cursor: pointer; }
+.slick-dots .slick-dots li { list-style-type: none; font-size: 18px; color: #7C7C7C; font-weight: 400; cursor: pointer; }
+
+.main { padding-top: 140px; }
+.main .main__menu { display: -webkit-box; display: -ms-flexbox; display: flex; }
+.main .main__menu .main__menu-item { margin-right: 72px; text-align: left; font-size: 24px; color: #7C7C7C; font-weight: 500; list-style-type: none; cursor: pointer; -webkit-transition: color 0.5s; transition: color 0.5s; }
+.main .main__menu .main__menu-item-active { color: #000000; }
+.main .main__menu .main__menu-item-inactive { color: #7C7C7C; }
+.main .main__content { margin-top: 60px; max-width: 752px; text-align: left; font-size: 18px; color: #000000; font-weight: 400; }
+.main .main__content-active-btm140px { display: block; margin-bottom: 140px; }
+.main .main__content-active-btm60px { display: block; margin-bottom: 60px; }
+.main .main__content-inactive { display: none; }
+.main .main__wrapper { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+.main .main__wrapper .main__wrapper-item { width: 100%; }
+
+.footer { min-height: 658px; }
+.footer .footer__nav { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: 60px 0; }
+.footer .footer__nav .footer__nav-item { cursor: pointer; font-size: 24px; font-weight: 500; }
+.footer .footer__border { margin-top: 60px; max-width: 1755px; height: 1px; margin: 0 auto; background-color: #FF0615; }
+.footer .footer__wrapper { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; text-align: left; }
+.footer .footer__wrapper .footer__wrapper-contacts { padding-top: 60px; }
+.footer .footer__wrapper .footer__wrapper-contacts .footer__wrapper-contacts-title { font-size: 24px; font-weight: 500; }
+.footer .footer__wrapper .footer__wrapper-contacts .locality { padding-top: 20px; font-weight: 400; font-size: 18px; }
+.footer .footer__wrapper .footer__wrapper-contacts .street-address { padding-top: 8px; font-weight: 400; font-size: 18px; }
+.footer .footer__wrapper .footer__wrapper-contacts .tel { display: block; margin-top: 19px; color: #FF0615; text-decoration: none; font-weight: 400; font-size: 18px; }
+.footer .footer__wrapper .footer__wrapper-contacts .email { display: block; margin-top: 18px; text-decoration: none; color: #000; font-size: 18px; }
+.footer .footer__wrapper .footer__wrapper-contacts .in-adress { padding-top: 60px; font-size: 18px; }
+.footer .footer__wrapper .footer__wrapper-contacts .in-adress .index { padding-top: 6px; font-size: 18px; }
+.footer .footer__wrapper .footer__wrapper-contacts .in-adress .street-address { padding-top: 7px; font-size: 18px; }
+.footer .footer__wrapper .footer__wrapper-item { padding-top: 60px; text-align: right; }
+.footer .footer__wrapper .footer__wrapper-item .footer__wrapper-item-download { display: block; font-size: 24px; text-decoration: none; font-weight: 500; color: #000000; }
+.footer .footer__wrapper .footer__wrapper-item .footer__wrapper-item-download:not(:first-child) { margin-top: 20px; }
+.footer .footer__wrapper .footer__wrapper-item .footer__wrapper-item-logo { padding-top: 283px; }
+
+/*# sourceMappingURL=style.css.map */
