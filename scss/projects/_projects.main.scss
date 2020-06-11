@@ -4,7 +4,6 @@
             display: flex;
             justify-content: space-between;
             .main__menu-item{
-                margin-right: 72px;
                 text-align: left;
                 font-size: 24px;
                 color: #7C7C7C;
@@ -31,7 +30,7 @@
             .main__catalog-item{
                 margin-top: 33px;
                 position: relative;
-                max-width: 861px;
+                max-width: 47%;
                 .main__catalog-image{
                     width: 100%;
                     transition: filter 0.5s;
@@ -69,4 +68,85 @@
     .footer_border_projects{
         display: none;
     }
+}
+
+
+
+
+@media (min-width: 320px){
+    .main{
+        .container{
+            max-width: 100%;
+            .main__menu-item{
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media (min-width: 575.98px){
+    .main{
+        .container{
+            max-width: 100%;
+            .main__menu-item{
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media (min-width: 991.98px){
+    .main{
+        .container{
+            max-width: 100%;
+            .main__menu-item{
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1199.98px){
+    .main{
+        .container{
+            max-width: 100%;
+            .main__menu-item{
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1600px){
+    .main{
+        .container{
+            width: 100%;
+            .main__menu-project{
+                .main__menu-item{
+                    font-size: 24px;
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+    .header{
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1920px){
+    .main{
+        .container{
+            max-width: 100%;
+            .main__menu-project{
+                .main__menu-item{
+                    font-size: 24px;
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+    .header{
+        width: 100%;
+    }
+
 }
