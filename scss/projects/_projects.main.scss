@@ -1,0 +1,44 @@
+.main{
+    .container{
+        .main__menu{
+            display: flex;
+            justify-content: space-between;
+            .main__menu-item:last-child{
+                margin-right: 0px;
+            }
+        }
+        .main__catalog{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-top: 60px;
+            .main__catalog-item{
+                flex-grow: 1;
+                max-width: 861px;
+                min-width: 400px;
+                transition: filter 0.5s;
+                .main__catalog-item{
+                    width:100%;
+                    .main__catalog-item-content{
+                    }
+                }
+            }
+            .main__catalog-item:hover{
+                filter: brightness(60%)
+            }
+            .main__catalog-item:nth-child(odd){
+                margin-right: 33px;
+            }
+        }
+    }
+}
+.footer{
+    .footer_nav_projects{
+        display: none;
+    }
+}
+.footer{
+    .footer_border_projects{
+        display: none;
+    }
+}
