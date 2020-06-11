@@ -82,4 +82,8 @@ body { background-color: #fff; padding: 0 72px; }
 
 .footer .footer_border_projects { display: none; }
 
+.we__content { display: none; margin-top: 61px; text-align: left; font-size: 18px; line-height: 26px; letter-spacing: 0px; color: #000000; font-weight: 400; }
+
+.we_content-active { display: block; }
+
 /*# sourceMappingURL=style.css.map */
