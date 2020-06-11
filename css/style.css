@@ -31,10 +31,10 @@ body { background-color: #fff; padding: 0 72px; }
 .slick-dots .slick-dots li { list-style-type: none; font-size: 18px; color: #7C7C7C; font-weight: 400; cursor: pointer; }
 
 .main { padding-top: 138px; }
-.main .main__menu { display: -webkit-box; display: -ms-flexbox; display: flex; }
-.main .main__menu .main__menu-item { margin-right: 72px; text-align: left; font-size: 24px; color: #7C7C7C; font-weight: 500; list-style-type: none; cursor: pointer; -webkit-transition: color 0.5s; transition: color 0.5s; }
-.main .main__menu .main__menu-item-active { color: #000000; }
-.main .main__menu .main__menu-item-inactive { color: #7C7C7C; }
+.main .main_menu_index { display: -webkit-box; display: -ms-flexbox; display: flex; }
+.main .main_menu_index .main__menu-item { margin-right: 72px; text-align: left; font-size: 24px; color: #7C7C7C; font-weight: 500; list-style-type: none; cursor: pointer; -webkit-transition: color 0.5s; transition: color 0.5s; }
+.main .main_menu_index .main__menu-item-active { color: #000000; }
+.main .main_menu_index .main__menu-item-inactive { color: #7C7C7C; }
 .main .main__content { margin-top: 56px; max-width: 752px; text-align: left; font-size: 18px; color: #000000; font-weight: 400; line-height: 26px; }
 .main .main__content-active-btm140px { display: block; margin-bottom: 140px; }
 .main .main__content-active-btm60px { display: block; margin-bottom: 60px; }
@@ -62,13 +62,17 @@ body { background-color: #fff; padding: 0 72px; }
 .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-item-download:not(:first-child) { margin-top: 20px; }
 .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-item-logo { position: absolute; top: 412px; right: 4px; font-size: 18px; color: #000000; font-weight: 400; }
 
-.main .container .main__menu { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
-.main .container .main__menu .main__menu-item:last-child { margin-right: 0px; }
+.main .container .main__menu-project { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.main .container .main__menu-project .main__menu-item { margin-right: 72px; text-align: left; font-size: 24px; color: #7C7C7C; font-weight: 500; list-style-type: none; cursor: pointer; -webkit-transition: color 0.5s; transition: color 0.5s; }
+.main .container .main__menu-project .main__menu-item:last-child { margin-right: 0px; }
+.main .container .main__menu-project .main__menu-item-active { color: #000000; }
+.main .container .main__menu-project .main__menu-item-inactive { color: #7C7C7C; }
 .main .container .main__catalog { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding-top: 60px; }
-.main .container .main__catalog .main__catalog-item { -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; max-width: 861px; min-width: 400px; -webkit-transition: -webkit-filter 0.5s; transition: -webkit-filter 0.5s; transition: filter 0.5s; transition: filter 0.5s, -webkit-filter 0.5s; }
-.main .container .main__catalog .main__catalog-item .main__catalog-item { width: 100%; }
-.main .container .main__catalog .main__catalog-item:hover { -webkit-filter: brightness(60%); filter: brightness(60%); }
-.main .container .main__catalog .main__catalog-item:nth-child(odd) { margin-right: 33px; }
+.main .container .main__catalog .main__catalog-item { margin-top: 33px; position: relative; max-width: 861px; min-width: 400px; }
+.main .container .main__catalog .main__catalog-item .main__catalog-image { width: 100%; -webkit-transition: -webkit-filter 0.5s; transition: -webkit-filter 0.5s; transition: filter 0.5s; transition: filter 0.5s, -webkit-filter 0.5s; z-index: 0; }
+.main .container .main__catalog .main__catalog-item .main__catalog-item-content { position: absolute; font-size: 18px; line-height: 26px; color: #FFFFFF; z-index: 1; bottom: 50px; left: 50px; }
+.main .container .main__catalog-image:hover { -webkit-filter: brightness(60%); filter: brightness(60%); }
+.main .container .main__catalog-item:nth-child(odd) { margin-right: 33px; }
 
 .footer .footer_nav_projects { display: none; }
 

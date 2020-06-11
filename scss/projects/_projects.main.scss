@@ -1,10 +1,26 @@
 .main{
     .container{
-        .main__menu{
+        .main__menu-project{
             display: flex;
             justify-content: space-between;
+            .main__menu-item{
+                margin-right: 72px;
+                text-align: left;
+                font-size: 24px;
+                color: #7C7C7C;
+                font-weight: 500;
+                list-style-type: none;
+                cursor: pointer;
+                transition: color 0.5s;
+            }
             .main__menu-item:last-child{
                 margin-right: 0px;
+            }
+            .main__menu-item-active{
+                color: #000000;
+            }
+            .main__menu-item-inactive{
+                color: #7C7C7C;
             }
         }
         .main__catalog{
@@ -13,23 +29,32 @@
             justify-content: space-between;
             padding-top: 60px;
             .main__catalog-item{
-                flex-grow: 1;
+                margin-top: 33px;
+                position: relative;
                 max-width: 861px;
                 min-width: 400px;
-                transition: filter 0.5s;
-                .main__catalog-item{
-                    width:100%;
-                    .main__catalog-item-content{
-                    }
+                .main__catalog-image{
+                    width: 100%;
+                    transition: filter 0.5s;
+                    z-index: 0;
+                }
+                .main__catalog-item-content{
+                    position: absolute;
+                    font-size:18px;
+                    line-height: 26px;
+                    color: #FFFFFF;
+                    z-index: 1;
+                    bottom: 50px;
+                    left: 50px;
+                }
                 }
             }
-            .main__catalog-item:hover{
+            .main__catalog-image:hover{
                 filter: brightness(60%)
             }
             .main__catalog-item:nth-child(odd){
                 margin-right: 33px;
             }
-        }
     }
 }
 .footer{

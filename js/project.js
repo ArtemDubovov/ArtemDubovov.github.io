@@ -1,4 +1,4 @@
-let main = document.querySelector('.main__menu');
+let main = document.querySelector('.main__menu-project');
 let item = main.querySelectorAll('.main__menu-item');
 
 item.forEach(el => {
