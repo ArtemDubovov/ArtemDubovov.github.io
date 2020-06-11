@@ -1,21 +1,26 @@
 .header {
     min-height: 78px;
-    padding-top: 60px;
+    padding-top: 57px;
     .container__header{
         display: flex;
         justify-content: space-between;
+        margin: 0 auto;
         .header__logo{
             font-size: 28px;
             a{
                 text-decoration: none;
                 color: black;
                 font-weight: 700;
+                width: 177px;
+                img{    
+                    width: 177px; 
+                }
             }
         }
         .header__menu{
             display: flex;
             list-style-type: none;
-            padding-top: 10px;
+            padding-top: 8px;
             .header__menu-item{
                 margin-left: 76px;
                 a{

@@ -9,6 +9,9 @@
             font-size: 24px;
             font-weight: 500;
         }
+        .footer__nav-item:not(:last-child){
+            margin-right: 21px;
+        }
     }
     .footer__border{
         margin-top: 60px;
@@ -66,7 +69,8 @@
             }
         }
         .footer__wrapper-item{
-            padding-top: 60px;
+            position: relative;
+            padding: 60px 4px 0 ;
             text-align: right;
             .footer__wrapper-item-download{
                 display: block;
@@ -79,7 +83,12 @@
                 margin-top: 20px;
             }
             .footer__wrapper-item-logo{
-                padding-top: 283px;
+                position: absolute;
+                top: 412px;
+                right: 4px;
+                font-size:18px;
+                color: #000000;
+                font-weight: 400;
             }
         }
     }
