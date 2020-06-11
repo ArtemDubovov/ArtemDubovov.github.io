@@ -23,7 +23,8 @@
             padding-top: 8px;
             .header__menu-item{
                 margin-left: 76px;
-                a{
+                transition: color 0.3;
+                .header__menu-item-link{
                     font-size: 18px;
                     letter-spacing: 0px;
                     color: #000000;
@@ -31,6 +32,12 @@
                     text-decoration: none;
                     font-weight: 400;
                 }
+                .header__menu-item-link-active{
+                    color: #FF0615;
+                }
+            }
+            .header__menu-item-link:focus{
+                color: #FF0615;
             }
         }
     }

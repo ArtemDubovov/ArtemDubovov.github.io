@@ -12,8 +12,10 @@ body { background-color: #fff; padding: 0 72px; }
 .header .container__header .header__logo a { text-decoration: none; color: black; font-weight: 700; width: 177px; }
 .header .container__header .header__logo a img { width: 177px; }
 .header .container__header .header__menu { display: -webkit-box; display: -ms-flexbox; display: flex; list-style-type: none; padding-top: 8px; }
-.header .container__header .header__menu .header__menu-item { margin-left: 76px; }
-.header .container__header .header__menu .header__menu-item a { font-size: 18px; letter-spacing: 0px; color: #000000; opacity: 1; text-decoration: none; font-weight: 400; }
+.header .container__header .header__menu .header__menu-item { margin-left: 76px; -webkit-transition: color 0.3; transition: color 0.3; }
+.header .container__header .header__menu .header__menu-item .header__menu-item-link { font-size: 18px; letter-spacing: 0px; color: #000000; opacity: 1; text-decoration: none; font-weight: 400; }
+.header .container__header .header__menu .header__menu-item .header__menu-item-link-active { color: #FF0615; }
+.header .container__header .header__menu .header__menu-item-link:focus { color: #FF0615; }
 
 .carousel { padding-top: 57px; }
 .carousel .carousel__inner { width: 100%; }
