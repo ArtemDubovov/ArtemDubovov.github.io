@@ -3,6 +3,9 @@
         .main__menu-project{
             display: flex;
             justify-content: space-between;
+            // .main__menu-item-project{     // отступ меню айтем в проектах
+            //     margin-right: 72px;
+            // }
             .main__menu-item{
                 text-align: left;
                 font-size: 24px;
@@ -79,7 +82,7 @@
         .container{
             max-width: 100%;
             .main__menu-item{
-                font-size: 16px;
+                font-size: 24px;
             }
         }
     }
@@ -89,7 +92,7 @@
         .container{
             max-width: 100%;
             .main__menu-item{
-                font-size: 16px;
+                font-size: 24px;
             }
         }
     }
@@ -99,8 +102,7 @@
         .container{
             max-width: 100%;
             .main__menu-item{
-                font-size: 16px;
-                margin-right: 0px;
+                font-size: 24px;
             }
             .main__catalog{
                 .main__catalog-item{
@@ -116,8 +118,7 @@
         .container{
             max-width: 100%;
             .main__menu-item{
-                font-size: 16px;
-                margin-right: 0px;
+                font-size: 24px;
             }
             .main__catalog{
                 .main__catalog-item{
