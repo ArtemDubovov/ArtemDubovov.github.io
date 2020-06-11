@@ -32,25 +32,22 @@
                 margin-top: 33px;
                 position: relative;
                 max-width: 861px;
-                min-width: 400px;
                 .main__catalog-image{
                     width: 100%;
                     transition: filter 0.5s;
-                    z-index: 0;
                 }
                 .main__catalog-item-content{
                     position: absolute;
                     font-size:18px;
                     line-height: 26px;
                     color: #FFFFFF;
-                    z-index: 1;
                     bottom: 50px;
                     left: 50px;
                 }
                 }
             }
             .main__catalog-image:hover{
-                filter: brightness(60%)
+                filter: brightness(60%);
             }
             .main__catalog-item:nth-child(odd){
                 margin-right: 33px;
