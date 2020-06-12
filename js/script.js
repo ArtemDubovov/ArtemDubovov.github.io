@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     $('.carousel__inner').slick({
         dots: true,
@@ -19,3 +20,4 @@ item.forEach(el => {
     el.classList.add('main__menu-item-active');
   }
 });
+

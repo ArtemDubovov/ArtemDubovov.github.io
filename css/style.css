@@ -7,7 +7,7 @@ body { background-color: #fff; padding: 0 72px; }
 @font-face { font-family: 'Muller'; src: url("./../../fonts/Fontfabric - MullerRegular.otf") format("opentype"); font-weight: 400; font-style: normal; }
 @font-face { font-family: 'Muller'; src: url("./../../fonts/Fontfabric - MullerMedium.otf") format("opentype"); font-weight: 500; font-style: normal; }
 .header { min-height: 78px; padding-top: 57px; }
-.header .container__header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin: 0; margin-right: 0px; }
+.header .container__header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin: 0 auto; }
 .header .container__header .header__logo { font-size: 28px; }
 .header .container__header .header__logo a { text-decoration: none; color: black; font-weight: 700; width: 177px; }
 .header .container__header .header__logo a img { width: 177px; }
