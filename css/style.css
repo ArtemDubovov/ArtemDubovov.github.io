@@ -4,8 +4,8 @@ body { background-color: #fff; padding: 0 72px; }
 
 .container { max-width: 100%; margin: 0 auto; }
 
-@font-face { font-family: 'Muller'; src: local("Muller Regular"), local("./../fonts/Muller-Regular"), url("./../fonts/MullerRegular.woff2") format("woff2"), url("./../fonts/MullerRegular.woff") format("woff"), url("./../fonts/MullerRegular.ttf") format("truetype"); font-weight: 400; font-style: normal; }
-@font-face { font-family: 'Muller'; src: local("Muller Medium"), local("./../fonts/Muller-Medium"), url("./../fonts/MullerMedium.woff2") format("woff2"), url("./../fonts/MullerMedium.woff") format("woff"), url("./../fonts/MullerMedium.ttf") format("truetype"); font-weight: 500; font-style: normal; }
+@font-face { font-family: 'Muller'; src: local("Muller Regular"), local("./../fonts/Muller-Regular"), url("./../fonts/MullerRegular.otf") format("truetype"); font-weight: 400; font-style: normal; }
+@font-face { font-family: 'Muller'; src: local("Muller Medium"), local("./../fonts/Muller-Medium"), url("./../fonts/MullerMedium.otf") format("truetype"); font-weight: 500; font-style: normal; }
 .header { min-height: 78px; padding-top: 57px; }
 .header .container__header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin: 0; margin-right: 0px; }
 .header .container__header .header__logo { font-size: 28px; }
@@ -76,7 +76,7 @@ body { background-color: #fff; padding: 0 72px; }
 .main .container .main__catalog .main__catalog-item .main__catalog-image { width: 100%; -webkit-transition: -webkit-filter 0.5s; transition: -webkit-filter 0.5s; transition: filter 0.5s; transition: filter 0.5s, -webkit-filter 0.5s; }
 .main .container .main__catalog .main__catalog-item .main__catalog-item-content { position: absolute; font-size: 18px; line-height: 26px; color: #FFFFFF; bottom: 50px; left: 50px; }
 .main .container .main__catalog-item:hover .main__catalog-image { -webkit-filter: brightness(60%); filter: brightness(60%); color: #FFFFFF; }
-.main .container .main__catalog-item:hover .main__catalog-item-content { color: #FFFFFF; -webkit-filter: brightness(100%); filter: brightness(100%); }
+.main .container .main__catalog-item:hover .main__catalog-item-content { color: #FFFFFF; }
 .main .container .main__catalog-item:nth-child(odd) { margin-right: 2%; }
 
 .footer-projects { padding-top: 80px; min-height: 591px; }
@@ -108,5 +108,7 @@ body { background-color: #fff; padding: 0 72px; }
 .we_content-active { display: block; }
 
 .container__we { margin: 0 0; }
+
+.header .container .header__menu-we { margin-right: 0.95%; }
 
 /*# sourceMappingURL=style.css.map */
