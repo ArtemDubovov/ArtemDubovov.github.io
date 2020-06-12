@@ -1,7 +1,12 @@
 .carousel {
     padding-top: 57px;
     .carousel__inner{
-        width: 100%;
+        .carousel__inner-item{
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
     }
     .carousel__content{
         max-width: 752px;

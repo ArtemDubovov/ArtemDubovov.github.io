@@ -18,7 +18,7 @@ body { background-color: #fff; padding: 0 72px; }
 .header .container__header .header__menu .header__menu-item-link:focus { color: #FF0615; }
 
 .carousel { padding-top: 57px; }
-.carousel .carousel__inner { width: 100%; }
+.carousel .carousel__inner .carousel__inner-item img { width: 100%; height: auto; }
 .carousel .carousel__content { max-width: 752px; margin-top: 42px; text-align: left; font-size: 18px; line-height: 25px; color: #000000; font-weight: 400; }
 .carousel .carousel__content .carousel__content-title { text-align: left; font-size: 24px; color: #000000; font-weight: 500; margin-bottom: 16px; }
 .carousel .carousel__content-studio-inactive { display: none; }
@@ -48,7 +48,7 @@ body { background-color: #fff; padding: 0 72px; }
 
 .footer { min-height: 658px; }
 .footer .footer__nav { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: 60px 0; }
-.footer .footer__nav .footer__nav-item { cursor: pointer; font-size: 24px; font-weight: 500; }
+.footer .footer__nav .footer__nav-item { cursor: pointer; font-size: 24px; font-weight: 500; text-decoration: none; color: #000; }
 .footer .footer__nav .footer__nav-item:not(:last-child) { margin-right: 21px; }
 .footer .footer__border { margin-top: 60px; max-width: 1755px; height: 1px; margin: 0 auto; background-color: #FF0615; }
 .footer .footer__wrapper { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; text-align: left; }
