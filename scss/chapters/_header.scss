@@ -4,7 +4,8 @@
     .container__header{
         display: flex;
         justify-content: space-between;
-        margin: 0 auto;
+        margin: 0;
+        margin-right: 0px;
         .header__logo{
             font-size: 28px;
             a{

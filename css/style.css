@@ -2,12 +2,12 @@ body { background-color: #fff; padding: 0 72px; }
 
 * { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0; font-family: 'Muller','sans-serif'; }
 
-.container { max-width: 1760px; margin: 0 auto; }
+.container { max-width: 100%; margin: 0 auto; }
 
 @font-face { font-family: 'Muller'; src: local("Muller Regular"), local("./../fonts/Muller-Regular"), url("./../fonts/MullerRegular.woff2") format("woff2"), url("./../fonts/MullerRegular.woff") format("woff"), url("./../fonts/MullerRegular.ttf") format("truetype"); font-weight: 400; font-style: normal; }
 @font-face { font-family: 'Muller'; src: local("Muller Medium"), local("./../fonts/Muller-Medium"), url("./../fonts/MullerMedium.woff2") format("woff2"), url("./../fonts/MullerMedium.woff") format("woff"), url("./../fonts/MullerMedium.ttf") format("truetype"); font-weight: 500; font-style: normal; }
 .header { min-height: 78px; padding-top: 57px; }
-.header .container__header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin: 0 auto; }
+.header .container__header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin: 0; margin-right: 0px; }
 .header .container__header .header__logo { font-size: 28px; }
 .header .container__header .header__logo a { text-decoration: none; color: black; font-weight: 700; width: 177px; }
 .header .container__header .header__logo a img { width: 177px; }
@@ -75,7 +75,8 @@ body { background-color: #fff; padding: 0 72px; }
 .main .container .main__catalog .main__catalog-item { margin-top: 33px; position: relative; max-width: 49%; }
 .main .container .main__catalog .main__catalog-item .main__catalog-image { width: 100%; -webkit-transition: -webkit-filter 0.5s; transition: -webkit-filter 0.5s; transition: filter 0.5s; transition: filter 0.5s, -webkit-filter 0.5s; }
 .main .container .main__catalog .main__catalog-item .main__catalog-item-content { position: absolute; font-size: 18px; line-height: 26px; color: #FFFFFF; bottom: 50px; left: 50px; }
-.main .container .main__catalog-item:hover { -webkit-filter: brightness(60%); filter: brightness(60%); color: #FFFFFF; }
+.main .container .main__catalog-item:hover .main__catalog-image { -webkit-filter: brightness(60%); filter: brightness(60%); color: #FFFFFF; }
+.main .container .main__catalog-item:hover .main__catalog-item-content { color: #FFFFFF; -webkit-filter: brightness(100%); filter: brightness(100%); }
 .main .container .main__catalog-item:nth-child(odd) { margin-right: 2%; }
 
 .footer-projects { padding-top: 80px; min-height: 591px; }

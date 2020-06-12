@@ -48,9 +48,13 @@
                 }
                 }
             }
-            .main__catalog-item:hover{
+            .main__catalog-item:hover .main__catalog-image{
                 filter: brightness(60%);
                 color: #FFFFFF; 
+            }
+            .main__catalog-item:hover .main__catalog-item-content{
+                color: #FFFFFF;
+                filter: brightness(100%);
             }
             .main__catalog-item:nth-child(odd){
                 margin-right: 2%;
