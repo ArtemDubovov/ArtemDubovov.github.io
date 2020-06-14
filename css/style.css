@@ -32,7 +32,7 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 .slick-dots button { width: 25px; border: none; outline: none; font-size: 18px; color: #7C7C7C; font-weight: 400; background: none; cursor: pointer; }
 .slick-dots .slick-dots li { list-style-type: none; font-size: 18px; color: #7C7C7C; font-weight: 400; cursor: pointer; }
 
-.main { padding-top: 138px; }
+.main { padding-top: 135px; }
 .main .main__title { text-align: left; font-size: 24px; line-height: 34px; font-weight: 500; color: #000000; }
 .main .main__catalog { padding-top: 40px; }
 .main .main_menu_index { display: -webkit-box; display: -ms-flexbox; display: flex; }
@@ -102,7 +102,7 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
   .main .container .main__menu-project .main__menu-item { font-size: 24px; margin-right: 0px; }
   .main .container .main__catalog .main__catalog-item { width: 49%; }
   .header { width: 100%; } }
-.we__content { position: absolute; visibility: hidden; margin-top: 61px; text-align: left; font-size: 18px; line-height: 26px; letter-spacing: 0px; color: #000000; font-weight: 400; opacity: 0; }
+.we__content { position: absolute; visibility: hidden; margin-top: 57px; text-align: left; font-size: 18px; line-height: 26px; letter-spacing: 0px; color: #000000; font-weight: 400; opacity: 0; }
 .we__content .we__content-title { font-weight: 500; }
 .we__content a { color: #FF0615; text-decoration: none; }
 .we__content .we__content-wrapper { display: inline-block; }
@@ -116,8 +116,7 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 
 .container__we { margin: 0 0; }
 
-.main .container .main__menu .main__menu-item-we a { text-decoration: none; color: #7C7C7C; }
-.main .container .main__menu .main__menu-item-we a a:target { display: block; }
+.main .container .main__menu .main__menu-item-we { margin-right: 87px; }
 
 .main .main__content { opacity: 0; visibility: hidden; position: absolute; margin: 56px 0 140px; max-width: 752px; text-align: left; font-size: 18px; color: #000000; font-weight: 400; line-height: 26px; -webkit-transition: opacity 1s; transition: opacity 1s; }
 .main .main__content-active { opacity: 1; visibility: visible; position: relative; -webkit-transition: opacity 1s; transition: opacity 1s; }

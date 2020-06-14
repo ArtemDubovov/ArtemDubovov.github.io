@@ -3,7 +3,7 @@
 .we__content{
     position: absolute;
     visibility: hidden;
-    margin-top: 61px;
+    margin-top: 57px;
     text-align: left;
     font-size: 18px;
     line-height: 26px;
@@ -63,13 +63,8 @@
     .container{
         .main__menu{
             .main__menu-item-we{
-                a{
-                    text-decoration: none;
-                    color: #7C7C7C;
-                a:target{
-                    display: block;
-                }
-                }
+                margin-right: 87px;
+
             }
         }
     }

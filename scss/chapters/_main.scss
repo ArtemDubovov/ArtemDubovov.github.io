@@ -1,4 +1,5 @@
 .main{
+    padding-top: 135px;
     .main__title{
         text-align: left;
         font-size: 24px;
@@ -9,7 +10,6 @@
     .main__catalog{
         padding-top: 40px;
     }
-    padding-top: 138px;
     .main_menu_index{
         display: flex;
         .main__menu-item{
@@ -39,6 +39,7 @@
         line-height: 26px;
 
     }
+
     .main__wrapper{
         display: flex;
         flex-direction: column;
