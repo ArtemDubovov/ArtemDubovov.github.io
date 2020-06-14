@@ -1,6 +1,7 @@
 
 
 .we__content{
+    
     position: absolute;
     visibility: hidden;
     margin-top: 57px;
@@ -19,13 +20,15 @@
         text-decoration: none;
     }
     .we__content-wrapper{
-        display: inline-block;
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
         .we__content-wrapper-text{
-            display: inline-block;
+            display: block;
             max-width: 752px;
         }
         .we__content-wrapper-img{
-            display: inline-block;
+            display: block;
             text-align: start;
             padding-left: 20px;
             .we__content-wrapper-img-title{
@@ -60,12 +63,17 @@
 }
 
 .main{
-    .container{
+    .container-we{
         .main__menu{
             .main__menu-item-we{
                 margin-right: 87px;
 
             }
         }
+    }
+}
+.main{
+    .container-we{
+        width: 1400px;
     }
 }
