@@ -134,8 +134,12 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 .main-item-magazine .container-item-magazine .main-item-magazine__title { margin: 140px 0 20px; font-size: 24px; color: #000000; font-weight: 500; }
 .main-item-magazine .container-item-magazine .main-item-magazine__content { margin-top: 20px; font-size: 18px; color: #000000; font-weight: 400; }
 .main-item-magazine .container-item-magazine .main-item-magazine__content .main-item-magazine__content-formula { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; margin: 20px 0px; border: 5px solid red; width: 100%; height: 384px; text-align: center; vertical-align: middle; }
-.main-item-magazine .container-item-magazine .main-item-magazine__content .main-item-magazine__content-formula .main-item-magazine__content-formula-content { margin-top: 176px; font-weight: 500; font-size: 24px; }
-.main-item-magazine .container-item-magazine .main-item-magazine__content .main-item-magazine__content-formula .main-item-magazine__content-formula-content span { color: #f04d4d; }
+.main-item-magazine .container-item-magazine .main-item-magazine__content .main-item-magazine__content-formula .main-item-magazine__content-formula-content-1 { margin-top: 176px; font-weight: 500; font-size: 24px; }
+.main-item-magazine .container-item-magazine .main-item-magazine__content .main-item-magazine__content-formula .main-item-magazine__content-formula-content-1 span { color: #f04d4d; }
+.main-item-magazine .container-item-magazine .main-item-magazine__content .main-item-magazine__content-formula .main-item-magazine__content-formula-content-2 { margin-top: 176px; font-weight: 500; font-size: 13px; }
+.main-item-magazine .container-item-magazine .main-item-magazine__content .main-item-magazine__content-formula .main-item-magazine__content-formula-content-2 span { color: #f04d4d; }
+.main-item-magazine .container-item-magazine .main-item-magazine__content .main-item-magazine__content-formula .main-item-magazine__content-formula-content-3 { margin-top: 176px; font-weight: 500; font-size: 24px; }
+.main-item-magazine .container-item-magazine .main-item-magazine__content .main-item-magazine__content-formula .main-item-magazine__content-formula-content-3 span { color: #f04d4d; }
 .main-item-magazine .container-item-magazine .main-item-magazine__content .main-item-magazine__title-small { margin: 65px 0 20px; font-size: 18px; color: #000000; font-weight: 500; }
 
 /*# sourceMappingURL=style.css.map */
