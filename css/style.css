@@ -122,4 +122,15 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 .main .main__content { opacity: 0; visibility: hidden; position: absolute; margin: 56px 0 140px; max-width: 752px; text-align: left; font-size: 18px; color: #000000; font-weight: 400; line-height: 26px; -webkit-transition: opacity 1s; transition: opacity 1s; }
 .main .main__content-active { opacity: 1; visibility: visible; position: relative; -webkit-transition: opacity 1s; transition: opacity 1s; }
 
+.carousel .carousel__inner .carousel__inner-item img { width: 100%; height: auto; }
+
+.main-item-magazine .container-item-magazine { width: 50%; text-align: left; }
+.main-item-magazine .container-item-magazine .main-item-magazine__title { margin-top: 60px; font-size: 24px; color: #000000; font-weight: 500; }
+.main-item-magazine .container-item-magazine .main-item-magazine__data { margin-top: 20px; font-size: 18px; font-weight: 400; }
+.main-item-magazine .container-item-magazine .main-item-magazine__nav { margin-top: 140px; list-style-type: none; }
+.main-item-magazine .container-item-magazine .main-item-magazine__nav .caption { font-size: 24px; font-weight: 500; }
+.main-item-magazine .container-item-magazine .main-item-magazine__nav .main-item-magazine__nav-item { margin-top: 20px; }
+.main-item-magazine .container-item-magazine .main-item-magazine__nav .main-item-magazine__nav-item .main-item-magazine__nav-item-link { font-size: 18px; color: #000; font-weight: 400; }
+.main-item-magazine .container-item-magazine .main-item-magazine__title { margin-top: 140px; font-size: 24px; color: #000000; font-weight: 500; }
+
 /*# sourceMappingURL=style.css.map */

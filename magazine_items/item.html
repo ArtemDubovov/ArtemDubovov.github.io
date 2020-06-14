@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vesrhinin.studio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link rel="stylesheet" href="./../css/style.min.css">
 </head>
 <body>
@@ -27,37 +28,49 @@
         </div>
     </section>
     <main class="main-item-magazine">
-        <div class="container">
+        <div class="container-item-magazine">
             <h2 class="main-item-magazine__title">Что такое LTV и как за ним следить?</h2>
             <div class="main-item-magazine__data"></div>
             <ul class="main-item-magazine__nav">
+                <li class="caption">Содержание</li>
                 <li class="main-item-magazine__nav-item"><a href="#title_01" class="main-item-magazine__nav-item-link">Что такое LTV?</a></li>
                 <li class="main-item-magazine__nav-item"><a href="#title_02" class="main-item-magazine__nav-item-link">Зачем нужен LTV?</a></li>
                 <li class="main-item-magazine__nav-item"><a href="#title_03" class="main-item-magazine__nav-item-link">Как рассчитать LTV?</a></li>
                 <li class="main-item-magazine__nav-item"><a href="#title_04" class="main-item-magazine__nav-item-link">Что считать вместе с LTV?</a></li>
                 <li class="main-item-magazine__nav-item"><a href="#title_05" class="main-item-magazine__nav-item-link">Как увеличить показатель LTV?</a></li>
             </ul>
-        </div>
-        <h3 name="title_01" class="main-item-magazine__title">Что такое LTV?</h3>    
-        <div class="main-item-magazine__content">
-            LTV — расшифровывается, как LifeTime Value и является показателем суммарной прибыли, которую компания получает от клиента за всё время сотрудничества. У LTV есть много названий: пожизненная стоимость клиента, clv, cltv. Это одно и тоже. Но главное, это одна из наиболее важных метрик.
-        </div>
-        <h3 name="title_02" class="main-item-magazine__title">Зачем нужен LTV?</h3>    
-        <div class="main-item-magazine__content">
-            ✔️ Эффективность. Определив самых лояльных клиентов по уровню LTV, мы уделяем им особое внимание. Тем самым повышаем прибыль. ✔️ Деньги. Благодаря LTV мы определяем реальную разницу между затратами на привлечение клиента и прибылью от него. ✔️ Каналы. С помощью LTV анализируем маркетинговые каналы. Те, которые приносят больше прибыли, оптимизируем и развиваем. Те, которые приносят меньше, отправляем в утиль, либо, если это возможно, исправляем ошибки и повышаем прибыль. ✔️ Сегментация. Распределяем клиентов по уровню LTV на сегменты и разрабатываем или корректируем стратегию для каждого из сегментов. ✔️ Работы по удержанию. LTV — одна из самых важных метрик удержания клиентов. Если LTV низкий, мы должны сосредоточиться на удержании текущих клиентов, а не на привлечении новых. ✔️ Понимание. LTV помогает нам лучше понимать потребителя. Мы пониманием, что способствует покупке продукта и оптимизируем коммуникацию.
-        </div>
-        <h3 name="title_03" class="main-item-magazine__title">Как рассчитать LTV?</h3>    
-        <div class="main-item-magazine__content">
-            Если вам необходимо понять примерное положение бизнеса без глубокого анализа, можно воспользоваться этой формулой.
-            <div class="main-item-magazine__content-formula"></div>
-            Пример: За 6 месяцев мы получили доход 100000 Количество клиентов за 6 месяцев составило 10 LTV = 100000 / 10 = 10000
-            <h4 class="main-item-magazine__title-small">2 Способ</h4>
-        </div>
-        <div class="main-item-magazine__content">
-            LTV — расшифровывается, как LifeTime Value и является показателем суммарной прибыли, которую компания получает от клиента за всё время сотрудничества. У LTV есть много названий: пожизненная стоимость клиента, clv, cltv. Это одно и тоже. Но главное, это одна из наиболее важных метрик.
-        </div>
-        <div class="main-item-magazine__content">
-            LTV — расшифровывается, как LifeTime Value и является показателем суммарной прибыли, которую компания получает от клиента за всё время сотрудничества. У LTV есть много названий: пожизненная стоимость клиента, clv, cltv. Это одно и тоже. Но главное, это одна из наиболее важных метрик.
+            <h3 id="title_01" class="main-item-magazine__title">Что такое LTV?</h3>    
+            <div class="main-item-magazine__content">
+                LTV — расшифровывается, как LifeTime Value и является показателем суммарной прибыли, которую компания получает от клиента за всё время сотрудничества. У LTV есть много названий: пожизненная стоимость клиента, clv, cltv. Это одно и тоже. Но главное, это одна из наиболее важных метрик.
+            </div>
+            <h3 id="title_02" class="main-item-magazine__title">Зачем нужен LTV?</h3>    
+            <div class="main-item-magazine__content">
+                 Эффективность. Определив самых лояльных клиентов по уровню LTV, мы уделяем им особое внимание. Тем самым повышаем прибыль. <br><br> ✔️ Деньги. Благодаря LTV мы определяем реальную разницу между затратами на привлечение клиента и прибылью от него. <br><br>✔️ Каналы. С помощью LTV анализируем маркетинговые каналы. Те, которые приносят больше прибыли, оптимизируем и развиваем. Те, которые приносят меньше, отправляем в утиль, либо, если это возможно, исправляем ошибки и повышаем прибыль. <br><br>✔️ Сегментация. Распределяем клиентов по уровню LTV на сегменты и разрабатываем или корректируем стратегию для каждого из сегментов.<br><br> ✔️ Работы по удержанию. LTV — одна из самых важных метрик удержания клиентов. Если LTV низкий, мы должны сосредоточиться на удержании текущих клиентов, а не на привлечении новых. <br><br>✔️ Понимание. LTV помогает нам лучше понимать потребителя. Мы пониманием, что способствует покупке продукта и оптимизируем коммуникацию.
+            </div>
+            <h3 id="title_03" class="main-item-magazine__title">Как рассчитать LTV?</h3>    
+            <div class="main-item-magazine__content">
+                Если вам необходимо понять примерное положение бизнеса без глубокого анализа, можно воспользоваться этой формулой.
+                <div class="main-item-magazine__content-formula"></div>
+                Пример: За 6 месяцев мы получили доход 100000 Количество клиентов за 6 месяцев составило 10 LTV = 100000 / 10 = 10000
+                <h4 class="main-item-magazine__title-small">2 Способ</h4>
+                Более точный.    
+                <div class="main-item-magazine__content-formula"></div>
+                Пример: Интернет магазин парфюмерии продает в месяц в среднем 200 позиций со средним чеком 6000. Клиент остается с ним в течении 6 месяцев. LTV = 200 х 6000 х 6 = 7200000
+                <h4 class="main-item-magazine__title-small">3 Способ</h4>
+                Точнее, чем предыдущий, но требует больше показателей.
+                <div class="main-item-magazine__content-formula"></div>
+                Пример: Интернет магазин совершает 400 продаж за 2 месяца Средний чек составляет 6000 Средняя доля прибыли равна 27% В среднем клиент удерживается 6 месяцев Общий LTV = 400 х 6000 х 27% х 6 = 3 888 000 Если мы хотим увидеть прогностический LTV, то необходимо разделить общий LTV на количество клиентов на конец последнего месяца. Если их было 95, то прогностический LTV = 3888000 / 95 = 40926
+
+            </div>
+            <h3 id="title_04" class="main-item-magazine__title">Зачем нужен LTV?</h3>    
+            <div class="main-item-magazine__content">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum accusantium vel vitae, a corrupti ducimus ratione delectus omnis eaque debitis adipisci repellat error ad laboriosam harum, fugit ea recusandae ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae illum illo in sapiente. Repellat laudantium optio minima perferendis recusandae perspiciatis itaque, ea velit tempore nam quod maiores officia laborum accusantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum odio placeat cumque maxime corrupti harum nesciunt saepe laboriosam, quos dolorum nemo tenetur neque ea et ratione cum eaque alias aliquid.
+            </div>
+            <h3 id="title_05" class="main-item-magazine__title">Как увеличить показатель LTV?</h3>    
+            <div class="main-item-magazine__content">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum accusantium vel vitae, a corrupti ducimus ratione delectus omnis eaque debitis adipisci repellat error ad laboriosam harum, fugit ea recusandae ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae illum illo in sapiente. Repellat laudantium optio minima perferendis recusandae perspiciatis itaque, ea velit tempore nam quod maiores officia laborum accusantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum odio placeat cumque maxime corrupti harum nesciunt saepe laboriosam, quos dolorum nemo tenetur neque ea et ratione cum eaque alias aliquid.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum accusantium vel vitae, a corrupti ducimus ratione delectus omnis eaque debitis adipisci repellat error ad laboriosam harum, fugit ea recusandae ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae illum illo in sapiente. Repellat laudantium optio minima perferendis recusandae perspiciatis itaque, ea velit tempore nam quod maiores officia laborum accusantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum odio placeat cumque maxime corrupti harum nesciunt saepe laboriosam, quos dolorum nemo tenetur neque ea et ratione cum eaque alias aliquid.
+            </div>
         </div>
     </main>
     <footer class="footer">
@@ -120,5 +133,8 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./../js/magazine_item.js"></script>
 </body>
 </html>
