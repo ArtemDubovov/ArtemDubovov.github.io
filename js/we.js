@@ -10,10 +10,7 @@ $(document).ready(function() {
 });
 
 
-let main = document.querySelector('.main__menu');
-let item = main.querySelectorAll('.main__menu-item');
-let wrap = document.querySelector('.we__wrapper');
-let wrapItem = document.querySelector('.we__content');
+
 
 
 // item.forEach(el => {

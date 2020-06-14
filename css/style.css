@@ -39,10 +39,7 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 .main .main_menu_index .main__menu-item { margin-right: 72px; text-align: left; font-size: 24px; color: #7C7C7C; font-weight: 500; list-style-type: none; cursor: pointer; -webkit-transition: color 0.5s; transition: color 0.5s; }
 .main .main_menu_index .main__menu-item-active { color: #000000; }
 .main .main_menu_index .main__menu-item-inactive { color: #7C7C7C; }
-.main .main__content { margin-top: 56px; max-width: 752px; text-align: left; font-size: 18px; color: #000000; font-weight: 400; line-height: 26px; }
-.main .main__content-active-btm140px { display: block; margin-bottom: 140px; }
-.main .main__content-active-btm60px { display: block; margin-bottom: 60px; }
-.main .main__content-inactive { display: none; }
+.main .main__content { margin: 56px 0 140px; max-width: 752px; text-align: left; font-size: 18px; color: #000000; font-weight: 400; line-height: 26px; }
 .main .main__wrapper { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 .main .main__wrapper .main__wrapper-item { width: 100%; }
 
@@ -65,6 +62,8 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-item-download { display: block; font-size: 24px; text-decoration: none; font-weight: 500; color: #000000; }
 .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-item-download:not(:first-child) { margin-top: 20px; }
 .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-item-logo { position: absolute; top: 412px; right: 4px; font-size: 18px; color: #000000; font-weight: 400; }
+
+.footer-home { padding-top: 80px; min-height: 591px; }
 
 .main .container .main__menu-project { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 .main .container .main__menu-project .main__menu-item { text-align: left; font-size: 24px; color: #7C7C7C; font-weight: 500; list-style-type: none; cursor: pointer; -webkit-transition: color 0.5s; transition: color 0.5s; }
@@ -119,5 +118,8 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 
 .main .container .main__menu .main__menu-item-we a { text-decoration: none; color: #7C7C7C; }
 .main .container .main__menu .main__menu-item-we a a:target { display: block; }
+
+.main .main__content { opacity: 0; visibility: hidden; position: absolute; margin: 56px 0 140px; max-width: 752px; text-align: left; font-size: 18px; color: #000000; font-weight: 400; line-height: 26px; height: 0%; -webkit-transition: opacity 1s, height 1s; transition: opacity 1s, height 1s; }
+.main .main__content-active { opacity: 1; visibility: visible; position: relative; height: 800%; -webkit-transition: opacity 1s, height 5s; transition: opacity 1s, height 5s; }
 
 /*# sourceMappingURL=style.css.map */
