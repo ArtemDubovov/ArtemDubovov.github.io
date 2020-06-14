@@ -123,7 +123,7 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 
 .carousel .carousel__inner .carousel__inner-item img { width: 100%; height: auto; }
 
-.main-item-magazine .container-item-magazine { width: 50%; text-align: left; }
+.main-item-magazine .container-item-magazine { width: 50%; text-align: left; margin: 0; }
 .main-item-magazine .container-item-magazine .main-item-magazine__title { margin-top: 60px; font-size: 24px; color: #000000; font-weight: 500; }
 .main-item-magazine .container-item-magazine .main-item-magazine__data { margin-top: 20px; font-size: 18px; font-weight: 400; }
 .main-item-magazine .container-item-magazine .main-item-magazine__nav { margin-top: 140px; list-style-type: none; }
