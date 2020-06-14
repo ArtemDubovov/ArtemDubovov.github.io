@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vesrhinin.studio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/style.min.css">
 </head>
 <body>
@@ -22,24 +23,51 @@
     <main class="main">
         <div class="container">
             <ul class="main__menu main_menu_index">
-                <li class="main__menu-item main__menu-item-1 main__menu-item-active">Суть</li>
-                <li class="main__menu-item main__menu-item-2">Миссия</li>
-                <li class="main__menu-item main__menu-item-3">Легенда</li>
-                <li class="main__menu-item main__menu-item-4">Делаем</li>
-                <li class="main__menu-item main__menu-item-5">За</li>
-                <li class="main__menu-item main__menu-item-6">С нами</li>
-                <li class="main__menu-item main__menu-item-7">Мы</li>
-                <li class="main__menu-item main__menu-item-8">Метафора</li>
+                <li class="main__menu-item main__menu-item-we main__menu-item-active">Суть</li>
+                <li class="main__menu-item main__menu-item-we">Миссия</li>
+                <li class="main__menu-item main__menu-item-we">Легенда</li>
+                <li class="main__menu-item main__menu-item-we">Делаем</li>
+                <li class="main__menu-item main__menu-item-we">За</li>
+                <li class="main__menu-item main__menu-item-we">С нами</li>
+                <li class="main__menu-item main__menu-item-we">Мы</li>
+                <li class="main__menu-item main__menu-item-we">Метафора</li>
             </ul>
             <div class="we__wrapper">
-                <div class="we__content we__content-1">Соединяем бизнес с клиентами.</div>
-                <div class="we__content we__content-2 we_content-active">Качественное удовлетворение потребностей человечества, <br> путем повышения образованности предпринимателя <br> в сфере диджитал и помощи в развитии бизнеса.</div>
-                <div class="we__content we__content-3">Соединяем бизнес с клиентами.</div>
-                <div class="we__content we__content-4">Качественное удовлетворение потребностей человечества, <br> путем повышения образованности предпринимателя <br> в сфере диджитал и помощи в развитии бизнеса.</div>
-                <div class="we__content we__content-5">Соединяем бизнес с клиентами.</div>
-                <div class="we__content we__content-6">Качественное удовлетворение потребностей человечества, <br> путем повышения образованности предпринимателя <br> в сфере диджитал и помощи в развитии бизнеса.</div>
-                <div class="we__content we__content-7">Соединяем бизнес с клиентами.</div>
-                <div class="we__content we__content-8">Качественное удовлетворение потребностей человечества, <br> путем повышения образованности предпринимателя <br> в сфере диджитал и помощи в развитии бизнеса.</div>
+                <div id="tab_01" class="we__content we_content-active">Соединяем бизнес с клиентами.</div>
+                <div id="tab_02" class="we__content">Качественное удовлетворение потребностей человечества, <br> путем повышения образованности предпринимателя <br> в сфере диджитал и помощи в развитии бизнеса.</div>
+                <div id="tab_03" class="we__content">  
+                    <div class="we__content-wrapper"> 
+                        <div class="we__content-wrapper-text">  
+                            Я рано начал свой путь предпринимателя. Продажами занимался еще в песочнице, когда обменивал бесполезную железку найденную здесь, на дорогой ультрафиолетовый детектор своего знакомого. Только потому, что я осознавал, какую ценность для него значит эта вещь, которую я готов выбросить. В 12 я раздавал листовки на улице, в 14 продавал сим-карты, в 16 работал в летнем лагере, каждый день отдыхая на водоеме и просыпаясь в сосновом лесу. В 18 пошел набираться опыта на стройку разнорабочим, учась на архитектурно-строительном в университете. А в 19 открыл свою строительную компанию, где строили дома и занимались отделкой квартир. 
+                        <br><br> 
+                    Сегодня я основатель и часть международного креативного агентства. Команда, которая формируется вокруг принципов, заложенных Мы создаем, развиваем бренды, которые люди хотят видеть, покупать, рекомендовать.
+                     <br><br>
+                        Наши клиенты это международные корпорации, правительство РФ, федеральные компании, частные специалисты. Зарабатываем для них десятки миллионов, и делаем их клиентов счастливыми.  Мой опыт позволяет делать работу эффективно, потому что самостоятельно прошел все ступени. Прошел путь от того, кто раздает рекламу, которую сейчас создаю сам, испытав все трудности, с которыми сталкиваются все предприниматели.
+                        </div>
+                        <div class="we__content-wrapper-img">
+                            <img src="./img/Ava.png" alt="avatar">
+                            <div class="we__content-wrapper-img-title">Вершинин Сёма</div>
+                            <div class="we__content-wrapper-img-subtitle">Основатель</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab_04" class="we__content">Стратегический брендинг <br><br> Разработка бренда на рынке B2b<br><br> Разработка бренда на рынке B2c<br><br> Ребрендинг<br><br> Фирменный стиль<br><br> Пользовательский интерфейс</div>
+                <div id="tab_05" class="we__content">На совесть<br>Оперативно<br>До мелочей</div>
+                <div id="tab_06" class="we__content">Легко<br>Удобно<br>Просто<br>Понятно</div>
+                <div id="tab_07" class="we__content">Аккуратные<br>Креативные<br>Умные<br>Чистые<br>Гибкие<br>Ответственные</div>
+                <div id="tab_08" class="we__content">
+                    <div class="we__content-title">Пешеходный переход</div>
+                    <div class="we__content-content">
+                        <br>
+                        Благодаря метафоре мы можем доносить смыслы до наших друзей клиентов, 
+                        <br>
+                        партнеров, аудитории.
+                        <br><br>
+                        В журнале мы рассказали о том как нам это удается сделать, и что дает метафора в брендинге.
+                        <br><br>
+                    </div>
+                    <a href="#">Читать публикацию “Метафора”</a>
+                </div>
             </div>
         </div>
     </main>
