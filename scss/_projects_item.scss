@@ -11,16 +11,14 @@
         color: #000000;
         font-weight: 400;
         line-height: 26px;
-        height: 0px;
-        transition: opacity 1s, height 1s;
+        transition: opacity 1s;
 
     }
     .main__content-active{
         opacity: 1;
         visibility: visible;
         position: relative;
-        height: auto;
-        transition: opacity 1s, height 5s;
+        transition: opacity 1s;
     }
 
 }
