@@ -23,11 +23,13 @@
                 color: #7C7C7C;
             }
         }
+
         .main__catalog{
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
             padding-top: 60px;
+
             .main__catalog-item{
                 margin-top: 33px;
                 position: relative;
@@ -52,6 +54,7 @@
             .main__catalog-item:nth-child(odd){
                 margin-right: 33px;
             }
+
     }
 }
 
@@ -69,4 +72,7 @@
     .footer_border_projects{
         display: none;
     }
+}
+.main__catalog-magazine{
+    padding-top: 27px;
 }
