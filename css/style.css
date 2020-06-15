@@ -19,7 +19,7 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 
 .carousel { padding-top: 57px; }
 .carousel .carousel__inner .carousel__inner-item img { width: 100%; height: auto; }
-.carousel .carousel__content { max-width: 752px; margin-top: 38px; text-align: left; font-size: 18px; line-height: 25px; color: #000000; font-weight: 400; }
+.carousel .carousel__content { max-width: 752px; margin-top: 56px; text-align: left; font-size: 18px; line-height: 25px; color: #000000; font-weight: 400; }
 .carousel .carousel__content .carousel__content-title { text-align: left; font-size: 24px; color: #000000; font-weight: 500; margin-bottom: 16px; }
 .carousel .carousel__content-studio-inactive { display: none; }
 .carousel .carousel__content-studio-active { display: block; }
