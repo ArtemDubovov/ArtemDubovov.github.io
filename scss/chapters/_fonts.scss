@@ -1,4 +1,9 @@
-
+@font-face {
+  font-family: 'Muller';
+  src: url("./../../fonts/Fontfabric\ -\ MullerLight.otf") format("opentype");
+  font-weight: 300;
+  font-style: lighter;
+}
 @font-face {
   font-family: 'Muller';
   src: url("./../../fonts/Fontfabric\ -\ MullerRegular.otf") format("opentype");
@@ -9,5 +14,5 @@
   font-family: 'Muller';
   src: url("./../../fonts/Fontfabric\ -\ MullerMedium.otf") format("opentype");
   font-weight: 500;
-  font-style: normal;
+  font-style: bold;
 }

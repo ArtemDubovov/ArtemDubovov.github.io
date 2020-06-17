@@ -8,9 +8,15 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Muller';
+    -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
 }
-
+@-moz-document url-prefix() {
+    * {
+      font-weight: lighter !important;
+    }
+  }
 
 .container{
     max-width: 1760px;

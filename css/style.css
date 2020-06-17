@@ -1,11 +1,13 @@
 body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 
-* { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0; font-family: 'Muller'; -webkit-font-smoothing: antialiased; }
+* { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0; font-family: 'Muller'; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; }
 
+@-moz-document url-prefix() { * { font-weight: lighter !important; } }
 .container { max-width: 1760px; margin: 0 auto; }
 
+@font-face { font-family: 'Muller'; src: url("./../../fonts/Fontfabric - MullerLight.otf") format("opentype"); font-weight: 300; font-style: lighter; }
 @font-face { font-family: 'Muller'; src: url("./../../fonts/Fontfabric - MullerRegular.otf") format("opentype"); font-weight: 400; font-style: normal; }
-@font-face { font-family: 'Muller'; src: url("./../../fonts/Fontfabric - MullerMedium.otf") format("opentype"); font-weight: 500; font-style: normal; }
+@font-face { font-family: 'Muller'; src: url("./../../fonts/Fontfabric - MullerMedium.otf") format("opentype"); font-weight: 500; font-style: bold; }
 .header { min-height: 78px; padding-top: 57px; }
 .header .container__header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin: 0 auto; }
 .header .container__header .header__logo { font-size: 28px; }
