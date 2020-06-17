@@ -75,3 +75,50 @@
         }
     }
 }
+@media (min-width: 320px){
+
+}
+@media (min-width: 575.98px){
+
+}
+@media (min-width: 991.98px){
+
+}
+
+@media (min-width: 1199.98px){
+
+}
+@media (min-width: 1600px){
+    .carousel{
+        .carousel__content{
+            font-size: 16px;
+            .carousel__content-title{
+                font-size: 20px;
+            }
+        }
+    }
+    .slick-dots{
+        .slick-dots{
+            li{
+                font-size:16px;
+            }
+        }
+    }
+}
+@media (min-width: 1920px){
+    .carousel{
+        .carousel__content{
+            font-size: 18px;
+            .carousel__content-title{
+                font-size: 22px;
+            }
+        }
+    }
+    .slick-dots{
+        .slick-dots{
+            li{
+                font-size:18px;
+            }
+        }
+    }
+}
