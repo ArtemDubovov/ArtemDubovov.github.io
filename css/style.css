@@ -1,6 +1,6 @@
 body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 
-* { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0; font-family: 'Muller'; }
+* { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0; font-family: 'Muller'; -webkit-font-smoothing: subpixel-antialiased; }
 
 .container { max-width: 1760px; margin: 0 auto; }
 
