@@ -74,7 +74,8 @@
 }
 .main{
     .container-we{
-        width: 1400px;
+        max-width: 1760px;
+        margin: 0px auto;
     }
 }
 @media (min-width: 320px){
