@@ -22,7 +22,7 @@
     .we__content-wrapper{
         display: flex;
         justify-content: space-between;
-        width: 1200px;
+        max-width: 1200px;
         .we__content-wrapper-text{
             display: block;
             max-width: 752px;
@@ -95,6 +95,7 @@
     .we__content{
         font-size: 15px;
         .we__content-wrapper{
+            max-width: 1154px;
             .we__content-wrapper-img{
                 .we__content-wrapper-img-title{
                     font-size: 15px;
@@ -107,6 +108,7 @@
     .we__content{
         font-size: $font-size-content;
         .we__content-wrapper{
+            max-width: 1200px;
             .we__content-wrapper-img{
                 .we__content-wrapper-img-title{
                     font-size: $font-size-content;

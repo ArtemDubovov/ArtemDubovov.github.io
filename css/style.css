@@ -141,7 +141,7 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 .we__content { position: absolute; visibility: hidden; margin-top: 57px; text-align: left; font-size: 18px; line-height: 26px; letter-spacing: 0px; color: #000000; font-weight: 400; opacity: 0; }
 .we__content .we__content-title { font-weight: 500; }
 .we__content a { color: #FF0615; text-decoration: none; }
-.we__content .we__content-wrapper { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 1200px; }
+.we__content .we__content-wrapper { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; max-width: 1200px; }
 .we__content .we__content-wrapper .we__content-wrapper-text { display: block; max-width: 752px; }
 .we__content .we__content-wrapper .we__content-wrapper-img { display: block; text-align: start; padding-left: 20px; }
 .we__content .we__content-wrapper .we__content-wrapper-img .we__content-wrapper-img-title { margin-top: 20px; text-align: left; font-size: 18px; color: #000000; font-weight: 500; }
@@ -157,8 +157,10 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 .main .container-we { max-width: 1760px; margin: 0px auto; }
 
 @media (min-width: 1500px) and (max-width: 1720px) { .we__content { font-size: 15px; }
+  .we__content .we__content-wrapper { max-width: 1154px; }
   .we__content .we__content-wrapper .we__content-wrapper-img .we__content-wrapper-img-title { font-size: 15px; } }
 @media (min-width: 1920px) { .we__content { font-size: 18px; }
+  .we__content .we__content-wrapper { max-width: 1200px; }
   .we__content .we__content-wrapper .we__content-wrapper-img .we__content-wrapper-img-title { font-size: 18px; } }
 .main .main__content { opacity: 0; visibility: hidden; position: absolute; margin: 56px 0 140px; max-width: 752px; text-align: left; font-size: 18px; color: #000000; font-weight: 400; line-height: 26px; -webkit-transition: opacity 1s; transition: opacity 1s; }
 .main .main__content-active { opacity: 1; visibility: visible; position: relative; -webkit-transition: opacity 1s; transition: opacity 1s; }
