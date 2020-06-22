@@ -24,7 +24,7 @@
                 margin-left: 76px;
                 transition: color 0.3s;
                 .header__menu-item-link{
-                    font-size: 18px;
+                    font-size: $font-size-content;
                     letter-spacing: 0px;
                     color: #000000;
                     opacity: 1;
@@ -55,7 +55,7 @@
 
 }
 
-@media (min-width: 1600px){
+@media (min-width: 1500px) and (max-width: 1720px){
     .header{
         .container__header{
             .header__logo{
@@ -68,7 +68,7 @@
             .header__menu{
                 .header__menu-item{
                     .header__menu-item-link{
-                        font-size: 16px;
+                        font-size: 15px;
                     }
                 }
             }
@@ -88,7 +88,7 @@
             .header__menu{
                 .header__menu-item{
                     .header__menu-item-link{
-                        font-size: 18px;
+                        font-size: $font-size-content;
                     }
                 }
             }

@@ -18,6 +18,14 @@ body{
     }
   }
 
+$font-size-content: 18px;
+$font-size-title: 24px;
+
+@media(min-width: 1500px) {
+  $font-size-content: 15px;
+  $font-size-title: 22px;
+}
+
 .container{
     max-width: 1760px;
     margin: 0 auto;

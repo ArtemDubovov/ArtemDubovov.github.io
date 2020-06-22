@@ -12,7 +12,7 @@
         max-width: 752px;
         margin-top: 56px;
         text-align: left;
-        font-size: 18px;
+        font-size: $font-size-content;
         line-height: 25px;
         color: #000000;
         font-weight: 400;
@@ -49,7 +49,7 @@
         }
     }
     li{
-        font-size:18px;
+        font-size: $font-size-content;
         color: #7C7C7C;
         font-weight: 400;
         cursor: pointer;
@@ -59,7 +59,7 @@
         width: 25px;
         border: none;
         outline: none;
-        font-size:18px;
+        font-size: $font-size-content;
         color: #7C7C7C;
         font-weight: 400;
         background: none;
@@ -68,7 +68,7 @@
     .slick-dots {
         li{
             list-style-type: none; 
-            font-size:18px;
+            font-size: $font-size-content;
             color: #7C7C7C;
             font-weight: 400;
             cursor: pointer;
@@ -88,7 +88,7 @@
 @media (min-width: 1199.98px){
 
 }
-@media (min-width: 1500px){
+@media (min-width: 1500px) and (max-width: 1720px){
     .carousel{
         .carousel__content{
             font-size: 15px;
@@ -108,7 +108,7 @@
 @media (min-width: 1920px){
     .carousel{
         .carousel__content{
-            font-size: 18px;
+            font-size: $font-size-content;
             .carousel__content-title{
                 font-size: 22px;
             }
@@ -117,7 +117,7 @@
     .slick-dots{
         .slick-dots{
             li{
-                font-size:18px;
+                font-size: $font-size-content;
             }
         }
     }

@@ -40,7 +40,7 @@
                 }
                 .main__catalog-item-content{
                     position: absolute;
-                    font-size:18px;
+                    font-size: $font-size-content;
                     line-height: 26px;
                     color: #FFFFFF;
                     bottom: 50px;
@@ -132,19 +132,23 @@
     }
 }
 
-@media (min-width: 1600px){
+@media (min-width: 1500px) and (max-width: 1720px){
     .main{
         .container{
             width: 100%;
             .main__menu-project{
                 .main__menu-item{
-                    font-size: 24px;
+                    font-size: 22px;
                     margin-right: 0px;
                 }
             }
             .main__catalog{
                 .main__catalog-item{
+                    font-size: 15px;
                     width: 49%;
+                    .main__catalog-item-content{
+                        font-size: 15px;
+                    }
                 }
             }
         }
@@ -168,7 +172,11 @@
             }
             .main__catalog{
                 .main__catalog-item{
+                    font-size: $font-size-content;
                     width: 49%;
+                    .main__catalog-item-content{
+                        font-size: $font-size-content;
+                    }
                 }
             }
         }

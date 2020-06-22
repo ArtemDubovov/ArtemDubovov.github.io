@@ -6,7 +6,7 @@
     visibility: hidden;
     margin-top: 57px;
     text-align: left;
-    font-size: 18px;
+    font-size: $font-size-content;
     line-height: 26px;
     letter-spacing: 0px;
     color: #000000;
@@ -34,7 +34,7 @@
             .we__content-wrapper-img-title{
                 margin-top: 20px;
                 text-align: left;
-                font-size: 18px;
+                font-size: $font-size-content;
                 color: #000000;
                 font-weight: 500;
             .we__content-wrapper-img-subtitle{
@@ -91,9 +91,27 @@
 @media (min-width: 1199.98px){
 
 }
-@media (min-width: 1600px){
-
+@media (min-width: 1500px) and (max-width: 1720px){
+    .we__content{
+        font-size: 15px;
+        .we__content-wrapper{
+            .we__content-wrapper-img{
+                .we__content-wrapper-img-title{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
 }
 @media (min-width: 1920px){
-
+    .we__content{
+        font-size: $font-size-content;
+        .we__content-wrapper{
+            .we__content-wrapper-img{
+                .we__content-wrapper-img-title{
+                    font-size: $font-size-content;
+                }
+            }
+        }
+    }
 }

@@ -18,8 +18,8 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 .header .container__header .header__menu .header__menu-item .header__menu-item-link-active { color: #FF0615; }
 .header .container__header .header__menu .header__menu-item-link:focus { color: #FF0615; }
 
-@media (min-width: 1600px) { .header .container__header .header__logo a img { width: 150px; }
-  .header .container__header .header__menu .header__menu-item .header__menu-item-link { font-size: 16px; } }
+@media (min-width: 1500px) and (max-width: 1720px) { .header .container__header .header__logo a img { width: 150px; }
+  .header .container__header .header__menu .header__menu-item .header__menu-item-link { font-size: 15px; } }
 @media (min-width: 1920px) { .header .container__header .header__logo a img { width: 177px; }
   .header .container__header .header__menu .header__menu-item .header__menu-item-link { font-size: 18px; } }
 .carousel { padding-top: 57px; }
@@ -37,7 +37,7 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 .slick-dots button { width: 25px; border: none; outline: none; font-size: 18px; color: #7C7C7C; font-weight: 400; background: none; cursor: pointer; }
 .slick-dots .slick-dots li { list-style-type: none; font-size: 18px; color: #7C7C7C; font-weight: 400; cursor: pointer; }
 
-@media (min-width: 1500px) { .carousel .carousel__content { font-size: 15px; }
+@media (min-width: 1500px) and (max-width: 1720px) { .carousel .carousel__content { font-size: 15px; }
   .carousel .carousel__content .carousel__content-title { font-size: 19px; }
   .slick-dots .slick-dots li { font-size: 15px; } }
 @media (min-width: 1920px) { .carousel .carousel__content { font-size: 18px; }
@@ -55,9 +55,9 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 .main .main__wrapper { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 .main .main__wrapper .main__wrapper-item { width: 100%; }
 
-@media (min-width: 1600px) { .main .main__title { font-size: 22px; }
+@media (min-width: 1500px) and (max-width: 1720px) { .main .main__title { font-size: 22px; }
   .main .main_menu_index .main__menu-item { font-size: 22px; }
-  .main .main__content { font-size: 16px; } }
+  .main .main__content { font-size: 15px; } }
 @media (min-width: 1920px) { .main .main__title { font-size: 24px; }
   .main .main_menu_index .main__menu-item { font-size: 24px; }
   .main .main__content { font-size: 18px; } }
@@ -83,6 +83,22 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 
 .footer-home { padding-top: 80px; min-height: 591px; }
 
+@media (min-width: 1500px) and (max-width: 1720px) { .footer .footer__wrapper .footer__wrapper-contacts .locality { font-size: 15px; }
+  .footer .footer__wrapper .footer__wrapper-contacts .street-address { font-size: 15px; }
+  .footer .footer__wrapper .footer__wrapper-contacts .tel { font-size: 15px; }
+  .footer .footer__wrapper .footer__wrapper-contacts .email { font-size: 15px; }
+  .footer .footer__wrapper .footer__wrapper-contacts .in-adress .index { font-size: 15px; }
+  .footer .footer__wrapper .footer__wrapper-contacts .in-adress .street-address { font-size: 15px; }
+  .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-item-logo { font-size: 15px; }
+  .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-item-download { font-size: 22px; } }
+@media (min-width: 1920px) { .footer .footer__wrapper .footer__wrapper-contacts .locality { font-size: 18px; }
+  .footer .footer__wrapper .footer__wrapper-contacts .street-address { font-size: 18px; }
+  .footer .footer__wrapper .footer__wrapper-contacts .tel { font-size: 18px; }
+  .footer .footer__wrapper .footer__wrapper-contacts .email { font-size: 18px; }
+  .footer .footer__wrapper .footer__wrapper-contacts .in-adress .index { font-size: 18px; }
+  .footer .footer__wrapper .footer__wrapper-contacts .in-adress .street-address { font-size: 18px; }
+  .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-item-logo { font-size: 18px; }
+  .footer .footer__wrapper .footer__wrapper-item .footer__wrapper-item-download { font-size: 24px; } }
 .main .container .main__menu-project { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 .main .container .main__menu-project .main__menu-item { text-align: left; font-size: 24px; color: #7C7C7C; font-weight: 500; list-style-type: none; cursor: pointer; -webkit-transition: color 0.5s; transition: color 0.5s; }
 .main .container .main__menu-project .main__menu-item:last-child { margin-right: 0px; }
@@ -112,13 +128,15 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 @media (min-width: 1199.98px) { .main .container { max-width: 100%; }
   .main .container .main__menu-item { font-size: 24px; }
   .main .container .main__catalog .main__catalog-item { width: 49%; } }
-@media (min-width: 1600px) { .main .container { width: 100%; }
-  .main .container .main__menu-project .main__menu-item { font-size: 24px; margin-right: 0px; }
-  .main .container .main__catalog .main__catalog-item { width: 49%; }
+@media (min-width: 1500px) and (max-width: 1720px) { .main .container { width: 100%; }
+  .main .container .main__menu-project .main__menu-item { font-size: 22px; margin-right: 0px; }
+  .main .container .main__catalog .main__catalog-item { font-size: 15px; width: 49%; }
+  .main .container .main__catalog .main__catalog-item .main__catalog-item-content { font-size: 15px; }
   .header { width: 100%; } }
 @media (min-width: 1920px) { .main .container { max-width: 100%; max-width: 1760px; }
   .main .container .main__menu-project .main__menu-item { font-size: 24px; margin-right: 0px; }
-  .main .container .main__catalog .main__catalog-item { width: 49%; }
+  .main .container .main__catalog .main__catalog-item { font-size: 18px; width: 49%; }
+  .main .container .main__catalog .main__catalog-item .main__catalog-item-content { font-size: 18px; }
   .header { width: 100%; } }
 .we__content { position: absolute; visibility: hidden; margin-top: 57px; text-align: left; font-size: 18px; line-height: 26px; letter-spacing: 0px; color: #000000; font-weight: 400; opacity: 0; }
 .we__content .we__content-title { font-weight: 500; }
@@ -138,9 +156,15 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 
 .main .container-we { max-width: 1760px; margin: 0px auto; }
 
+@media (min-width: 1500px) and (max-width: 1720px) { .we__content { font-size: 15px; }
+  .we__content .we__content-wrapper .we__content-wrapper-img .we__content-wrapper-img-title { font-size: 15px; } }
+@media (min-width: 1920px) { .we__content { font-size: 18px; }
+  .we__content .we__content-wrapper .we__content-wrapper-img .we__content-wrapper-img-title { font-size: 18px; } }
 .main .main__content { opacity: 0; visibility: hidden; position: absolute; margin: 56px 0 140px; max-width: 752px; text-align: left; font-size: 18px; color: #000000; font-weight: 400; line-height: 26px; -webkit-transition: opacity 1s; transition: opacity 1s; }
 .main .main__content-active { opacity: 1; visibility: visible; position: relative; -webkit-transition: opacity 1s; transition: opacity 1s; }
 
+@media (min-width: 1500px) and (max-width: 1720px) { .main .main__content { font-size: 15px; } }
+@media (min-width: 1920px) { .main .main__content { font-size: 18px; } }
 .carousel .carousel__inner .carousel__inner-item img { width: 100%; height: auto; }
 
 .main-item-magazine .container-item-magazine { width: 50%; text-align: left; margin: 0; }
@@ -162,5 +186,14 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 .main-item-magazine .container-item-magazine .main-item-magazine__content .main-item-magazine__title-small { margin: 65px 0 20px; font-size: 18px; color: #000000; font-weight: 500; }
 
 .main .container .main__catalog--magazine { padding-top: 27px; }
+
+@media (min-width: 1600px) { .main-item-magazine__data { font-size: 15px; }
+  .main-item-magazine__title-small { font-size: 15px; }
+  .main-item-magazine__content { font-size: 15px; }
+  .main-item-magazine__nav-item { font-size: 15px; } }
+@media (min-width: 1920px) { .main-item-magazine__data { font-size: 18px; }
+  .main-item-magazine__title-small { font-size: 18px; }
+  .main-item-magazine__content { font-size: 18px; }
+  .main-item-magazine__nav-item { font-size: 18px; } }
 
 /*# sourceMappingURL=style.css.map */

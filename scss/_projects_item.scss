@@ -7,7 +7,7 @@
         margin: 56px 0 140px;
         max-width: 752px;
         text-align: left;
-        font-size: 18px;
+        font-size: $font-size-content;
         color: #000000;
         font-weight: 400;
         line-height: 26px;
@@ -35,9 +35,17 @@
 @media (min-width: 1199.98px){
 
 }
-@media (min-width: 1500px){
-
+@media (min-width: 1500px) and (max-width: 1720px){
+    .main{
+        .main__content{
+            font-size: 15px;
+        }
+    }
 }
 @media (min-width: 1920px){
-
+    .main{
+        .main__content{
+            font-size: $font-size-content;
+        }
+    }
 }

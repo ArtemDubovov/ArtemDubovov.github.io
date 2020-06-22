@@ -21,7 +21,7 @@
         }
         .main-item-magazine__data{
             margin-top: 20px;
-            font-size: 18px;
+            font-size: $font-size-content;
             font-weight: 400;
         }
         .main-item-magazine__nav{
@@ -34,7 +34,7 @@
             .main-item-magazine__nav-item{
                 margin-top: 20px;
                 .main-item-magazine__nav-item-link{
-                    font-size: 18px;
+                    font-size: $font-size-content;
                     color: #000;
                     font-weight: 400;
                 }
@@ -48,7 +48,7 @@
         }
         .main-item-magazine__content{
             margin-top: 20px;
-            font-size: 18px;
+            font-size: $font-size-content;
             color: #000000;
             font-weight: 400;
             .main-item-magazine__content-formula{
@@ -90,7 +90,7 @@
             }
         .main-item-magazine__title-small{
             margin: 65px 0 20px;
-            font-size: 18px;
+            font-size: $font-size-content;
             color: #000000;
             font-weight: 500;
         }
@@ -119,8 +119,30 @@
 
 }
 @media (min-width: 1600px){
-
+    .main-item-magazine__data{
+        font-size: 15px;
+    }
+    .main-item-magazine__title-small{
+        font-size: 15px;
+    }
+    .main-item-magazine__content{
+        font-size: 15px;
+    }
+    .main-item-magazine__nav-item{
+        font-size: 15px;
+    }
 }
 @media (min-width: 1920px){
-
+    .main-item-magazine__data{
+        font-size: $font-size-content;
+    }
+    .main-item-magazine__title-small{
+        font-size: $font-size-content;
+    }
+    .main-item-magazine__content{
+        font-size: $font-size-content;
+    }
+    .main-item-magazine__nav-item{
+        font-size: $font-size-content;
+    }
 }

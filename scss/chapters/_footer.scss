@@ -35,12 +35,12 @@
             .locality{
                 padding-top: 20px;
                 font-weight: 400;
-                font-size: 18px;
+                font-size: $font-size-content;
             }
             .street-address{
                 padding-top: 8px;
                 font-weight: 400;
-                font-size: 18px;
+                font-size: $font-size-content;
             }
             .tel{
                 display: block;
@@ -48,25 +48,25 @@
                 color: #FF0615;
                 text-decoration: none;
                 font-weight: 400;
-                font-size: 18px;
+                font-size: $font-size-content;
             }
             .email{
                 display: block;
                 margin-top: 18px;
                 text-decoration: none;
                 color: #000;
-                font-size: 18px;
+                font-size: $font-size-content;
             }
             .in-adress{
                 padding-top: 60px;
-                font-size: 18px;
+                font-size: $font-size-content;
                 .index{
                     padding-top: 6px;
-                    font-size: 18px;
+                    font-size: $font-size-content;
                 }
                 .street-address{
                     padding-top: 7px;
-                    font-size: 18px;
+                    font-size: $font-size-content;
                 }
             }
         }
@@ -88,7 +88,7 @@
                 position: absolute;
                 top: 412px;
                 right: 4px;
-                font-size:18px;
+                font-size: $font-size-content;
                 color: #000000;
                 font-weight: 400;
             }
@@ -112,9 +112,75 @@
 @media (min-width: 1199.98px){
 
 }
-@media (min-width: 1600px){
-
+@media (min-width: 1500px) and (max-width: 1720px){
+    .footer{
+        .footer__wrapper{
+            .footer__wrapper-contacts{
+                .locality{
+                    font-size: 15px;
+                }
+                .street-address{
+                    font-size: 15px;
+                }
+                .tel{
+                    font-size: 15px;
+                }
+                .email{
+                    font-size: 15px;
+                }
+                .in-adress{
+                    .index{
+                        font-size: 15px;
+                    }
+                    .street-address{
+                        font-size: 15px;
+                    }
+                }
+            }
+            .footer__wrapper-item{
+                .footer__wrapper-item-logo{
+                    font-size: 15px;
+                }
+                .footer__wrapper-item-download{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
 }
 @media (min-width: 1920px){
-
+    .footer{
+        .footer__wrapper{
+            .footer__wrapper-contacts{
+                .locality{
+                    font-size: $font-size-content
+                }
+                .street-address{
+                    font-size: $font-size-content
+                }
+                .tel{
+                    font-size: $font-size-content
+                }
+                .email{
+                    font-size: $font-size-content
+                }
+                .in-adress{
+                    .index{
+                        font-size: $font-size-content
+                    }
+                    .street-address{
+                        font-size: $font-size-content
+                    }
+                }
+            }
+            .footer__wrapper-item{
+                .footer__wrapper-item-logo{
+                    font-size: $font-size-content
+                }
+                .footer__wrapper-item-download{
+                    font-size: 24px;
+                }
+            }
+        }
+    }
 }
