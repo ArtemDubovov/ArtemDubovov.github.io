@@ -37,9 +37,9 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 .slick-dots button { width: 25px; border: none; outline: none; font-size: 18px; color: #7C7C7C; font-weight: 400; background: none; cursor: pointer; }
 .slick-dots .slick-dots li { list-style-type: none; font-size: 18px; color: #7C7C7C; font-weight: 400; cursor: pointer; }
 
-@media (min-width: 1600px) { .carousel .carousel__content { font-size: 16px; }
-  .carousel .carousel__content .carousel__content-title { font-size: 20px; }
-  .slick-dots .slick-dots li { font-size: 16px; } }
+@media (min-width: 1500px) { .carousel .carousel__content { font-size: 15px; }
+  .carousel .carousel__content .carousel__content-title { font-size: 19px; }
+  .slick-dots .slick-dots li { font-size: 15px; } }
 @media (min-width: 1920px) { .carousel .carousel__content { font-size: 18px; }
   .carousel .carousel__content .carousel__content-title { font-size: 22px; }
   .slick-dots .slick-dots li { font-size: 18px; } }
