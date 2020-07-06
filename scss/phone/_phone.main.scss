@@ -16,4 +16,13 @@
 }
 
 
-
+@media (min-width: 320px) and (max-width: 575.98px){
+    .phone__index{
+        display: block;
+    }
+}
+@media (min-width: 576px){
+    .phone__index{
+        display: none;
+    }
+}

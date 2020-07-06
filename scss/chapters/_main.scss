@@ -69,7 +69,7 @@
         display: block;
     }
 }
-@media (max-width: 576px) and (min-width: 991.98px){
+@media (min-width: 576px) and (max-width: 991.98px){
     .main {
         display: block;
         .main-catalog{
@@ -101,6 +101,9 @@
             font-size: 15px;
         }
     }
+    .phone__index{
+        display: none;
+    }
 }
 @media (min-width: 1500px) and (max-width: 1720px){
     .main{
@@ -115,6 +118,9 @@
         .main__content{
             font-size: 15px;
         }
+    }
+    .phone__index{
+        display: none;
     }
 }
 @media (min-width: 1920px){
