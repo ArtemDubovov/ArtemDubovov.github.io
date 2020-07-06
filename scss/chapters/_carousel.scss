@@ -86,7 +86,21 @@
 }
 
 @media (min-width: 1199.98px){
-
+    .carousel{
+        .carousel__content{
+            font-size: 15px;
+            .carousel__content-title{
+                font-size: 19px;
+            }
+        }
+    }
+    .slick-dots{
+        .slick-dots{
+            li{
+                font-size:15px;
+            }
+        }
+    }
 }
 @media (min-width: 1500px) and (max-width: 1720px){
     .carousel{

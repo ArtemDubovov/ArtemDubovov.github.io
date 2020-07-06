@@ -119,16 +119,26 @@
 @media (min-width: 1199.98px){
     .main{
         .container{
-            max-width: 100%;
-            .main__menu-item{
-                font-size: 24px;
+            width: 100%;
+            .main__menu-project{
+                .main__menu-item{
+                    font-size: 20px;
+                    margin-right: 0px;
+                }
             }
             .main__catalog{
                 .main__catalog-item{
+                    font-size: 15px;
                     width: 49%;
+                    .main__catalog-item-content{
+                        font-size: 15px;
+                    }
                 }
             }
         }
+    }
+    .header{
+        width: 100%;
     }
 }
 

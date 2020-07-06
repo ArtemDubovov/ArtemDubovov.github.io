@@ -35,6 +35,9 @@
                     color: #FF0615;
                 }
             }
+            .header__menu-item-contact{
+                display: none;
+            }
             .header__menu-item-link:focus{
                 color: #FF0615;
             }
@@ -52,7 +55,24 @@
 }
 
 @media (min-width: 1199.98px){
-
+    .header{
+        .container__header{
+            .header__logo{
+                a{
+                    img{
+                        width: 150px;
+                    }
+                }
+            }
+            .header__menu{
+                .header__menu-item{
+                    .header__menu-item-link{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 1500px) and (max-width: 1720px){

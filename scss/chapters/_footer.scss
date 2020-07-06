@@ -110,7 +110,40 @@
 }
 
 @media (min-width: 1199.98px){
-
+    .footer{
+        .footer__wrapper{
+            .footer__wrapper-contacts{
+                .locality{
+                    font-size: 15px;
+                }
+                .street-address{
+                    font-size: 15px;
+                }
+                .tel{
+                    font-size: 15px;
+                }
+                .email{
+                    font-size: 15px;
+                }
+                .in-adress{
+                    .index{
+                        font-size: 15px;
+                    }
+                    .street-address{
+                        font-size: 15px;
+                    }
+                }
+            }
+            .footer__wrapper-item{
+                .footer__wrapper-item-logo{
+                    font-size: 15px;
+                }
+                .footer__wrapper-item-download{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
 }
 @media (min-width: 1500px) and (max-width: 1720px){
     .footer{

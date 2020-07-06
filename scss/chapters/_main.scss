@@ -62,7 +62,19 @@
 }
 
 @media (min-width: 1199.98px){
-
+    .main{
+        .main__title{
+            font-size: 20px;
+        }
+        .main_menu_index{
+            .main__menu-item{
+                font-size: 20px;
+            }
+        }
+        .main__content{
+            font-size: 15px;
+        }
+    }
 }
 @media (min-width: 1500px) and (max-width: 1720px){
     .main{

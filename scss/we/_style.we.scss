@@ -64,10 +64,15 @@
 
 .main{
     .container-we{
-        .main__menu{
+        .main_menu_we{
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1199px;
             .main__menu-item-we{
-                margin-right: 87px;
-
+                margin-right: 0px;
+            }
+            .main__menu-item-we:last-child{
+                margin-right: 0px;
             }
         }
     }
@@ -89,13 +94,23 @@
 }
 
 @media (min-width: 1199.98px){
-
+    .we__content{
+        font-size: 15px;
+        .we__content-wrapper{
+            max-width: 1199px;
+            .we__content-wrapper-img{
+                .we__content-wrapper-img-title{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
 }
 @media (min-width: 1500px) and (max-width: 1720px){
     .we__content{
         font-size: 15px;
         .we__content-wrapper{
-            max-width: 1154px;
+            max-width: 1199px;
             .we__content-wrapper-img{
                 .we__content-wrapper-img-title{
                     font-size: 15px;
