@@ -25,14 +25,18 @@ $font-size-title: 24px;
   $font-size-content: 15px;
   $font-size-title: 22px;
 }
-
+@media(min-width: 320px) and (max-width: 575.98px){
+  body{
+    padding: 0 20px;
+  }
+}
 .container{
     max-width: 1760px;
     margin: 0 auto;
 }
 
 
-@import './chapters/fonts';
+@import 'chapters/fonts';
 @import 'chapters/header';
 @import 'chapters/carousel';
 @import 'chapters/main';
@@ -42,3 +46,4 @@ $font-size-title: 24px;
 @import 'tab';
 @import 'projects_item';
 @import 'magazine/magazine_item/magazine_item';
+@import 'phone/phone.main';

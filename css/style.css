@@ -20,6 +20,11 @@ body {
     font-weight: lighter !important;
   }
 }
+@media (min-width: 320px) and (max-width: 575.98px) {
+  body {
+    padding: 0 20px;
+  }
+}
 .container {
   max-width: 1760px;
   margin: 0 auto;
@@ -95,6 +100,37 @@ body {
   color: #FF0615;
 }
 
+@media (min-width: 320px) {
+  .header {
+    padding-top: 26px;
+  }
+  .header .container__header .header__litle-menu {
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+  }
+  .header .container__header .header__logo a img {
+    width: 160px;
+  }
+  .header .container__header .header__menu {
+    display: none;
+  }
+}
+@media (min-width: 575.98px) {
+  .header {
+    padding-top: 57px;
+  }
+  .header .container__header .header__litle-menu {
+    display: none;
+  }
+  .header .container__header .header__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 @media (min-width: 1199.98px) {
   .header .container__header .header__logo a img {
     width: 150px;
@@ -290,6 +326,46 @@ body {
   width: 100%;
 }
 
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .main {
+    display: none;
+  }
+  .main .main-catalog {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .phone__index {
+    display: block;
+  }
+}
+@media (max-width: 576px) and (min-width: 991.98px) {
+  .main {
+    display: block;
+  }
+  .main .main-catalog {
+    display: block;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .carousel {
+    display: block;
+  }
+
+  .phone__index {
+    display: none;
+  }
+}
 @media (min-width: 1199.98px) {
   .main .main__title {
     font-size: 20px;
@@ -993,6 +1069,22 @@ body {
   .main-item-magazine__nav-item {
     font-size: 18px;
   }
+}
+.phone__index {
+  margin-top: 27px;
+  max-height: 749px;
+}
+.phone__index .phone__index-title {
+  font-size: 32px;
+  text-align: left;
+  font-weight: 600;
+  line-height: 40px;
+}
+.phone__index .phone__index-subtitle {
+  margin-top: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -51,14 +51,40 @@
         }
     }
 }
-@media (min-width: 320px){
 
+@media (min-width: 320px) and (max-width: 575.98px){
+    .main {
+        display: none;
+        .main-catalog{
+            display: none;
+        }
+    }
+    .footer {
+        display: none;
+    }
+    .carousel{
+        display: none;
+    }
+    .phone__index{
+        display: block;
+    }
 }
-@media (min-width: 575.98px){
-
-}
-@media (min-width: 991.98px){
-
+@media (max-width: 576px) and (min-width: 991.98px){
+    .main {
+        display: block;
+        .main-catalog{
+            display: block;
+        }
+    }
+    .footer {
+        display: block;
+    }
+    .carousel{
+        display: block;
+    }
+    .phone__index{
+        display: none;
+    }
 }
 
 @media (min-width: 1199.98px){
