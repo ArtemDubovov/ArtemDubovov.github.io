@@ -1,5 +1,10 @@
 .main{
     padding-top: 135px;
+}
+.main-index{
+    padding-top: 135px;
+}
+.main .main-index{
     .main__title{
         text-align: left;
         font-size: 24px;
@@ -53,14 +58,18 @@
 }
 
 @media (min-width: 320px) and (max-width: 575.98px){
-    .main {
+    .phone_adaptive{
+        padding: 0px;
+    }
+    .container__phone{
+        padding: 0px 20px;
+    }
+    .main-index {
+        padding-top: 90px;
         display: none;
         .main-catalog{
             display: none;
         }
-    }
-    .footer {
-        display: none;
     }
     .carousel{
         display: none;

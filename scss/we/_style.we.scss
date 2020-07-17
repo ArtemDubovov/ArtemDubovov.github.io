@@ -65,14 +65,28 @@
 .main{
     .container-we{
         .main_menu_we{
+            display: flex;
             justify-content: space-between;
             align-items: center;
             max-width: 1199px;
             .main__menu-item-we{
                 margin-right: 0px;
+                text-align: left;
+                font-size: 24px;
+                color: #7C7C7C;
+                font-weight: 500;
+                list-style-type: none;
+                cursor: pointer;
+                transition: color 0.5s;
             }
             .main__menu-item-we:last-child{
                 margin-right: 0px;
+            }
+            .main__menu-item-active{
+                color: #000000;
+            }
+            .main__menu-item-inactive{
+                color: #7C7C7C;
             }
         }
     }

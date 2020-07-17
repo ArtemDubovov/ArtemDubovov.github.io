@@ -29,13 +29,14 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            padding-top: 20px;
+            padding-top: 27px;
             .main__catalog-item{
                 margin-top: 1.75%;
                 position: relative;
                 flex: 0 0 49%;
                 .main__catalog-image{
                     width: 100%;
+                    height: 100%;
                     transition: filter 0.5s;
                 }
                 .main__catalog-item-content{
@@ -54,9 +55,6 @@
             }
             .main__catalog-item:hover .main__catalog-item-content{
                 color: #FFFFFF;
-            }
-            .main__catalog-item:nth-child(odd){
-                margin-right: 2%;
             }
     }
 }
@@ -81,7 +79,7 @@
 
 
 @media (min-width: 320px){
-    .main{
+    .main-projects{
         .container{
             max-width: 100%;
             .main__menu-item{
@@ -109,7 +107,6 @@
             }
             .main__catalog{
                 .main__catalog-item{
-                    width: 48%;
                 }
             }
         }
@@ -129,7 +126,6 @@
             .main__catalog{
                 .main__catalog-item{
                     font-size: 15px;
-                    width: 49%;
                     .main__catalog-item-content{
                         font-size: 15px;
                     }
@@ -155,7 +151,6 @@
             .main__catalog{
                 .main__catalog-item{
                     font-size: 15px;
-                    width: 49%;
                     .main__catalog-item-content{
                         font-size: 15px;
                     }

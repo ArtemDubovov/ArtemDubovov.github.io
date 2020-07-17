@@ -1,0 +1,83 @@
+.phone-projects{
+    margin-top: 90px;
+    .phone-projects-title{
+        text-align: left;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 38px;
+    }
+    .phone-projects-subtitle{
+        margin-top: 20px;
+        text-align: left;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 575.98px){
+    .phone-projects{
+        display: block;
+    }
+    .main-projects{
+        display: block;
+        padding-top: 90px;
+        .container{
+            .main__menu-project{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .main__menu-item{
+                    margin-top: 20px;
+                    font-size: 18px;
+                }
+                .f-all{
+                    order: 1;
+                }
+                .f-startup{
+                    order: 2;
+                }
+                .f-charity{
+                    order: 4;
+                }
+                .f-medicine{
+                    order: 6;
+                }
+                .f-beauty{
+                    order: 7;
+                }
+                .f-technology{
+                    order: 3;
+                }
+                .f-building{
+                    order: 5;
+                }
+                .f-clothing{
+                    order: 8;
+                }
+            }
+            .main__catalog{
+                display: flex;
+                .main__catalog-item{
+                    margin-top: 30px;
+                    flex: 1 1 100%;
+                    border-radius: 20px;
+                    overflow: hidden;
+                    .main__catalog-image{
+                        height: 100%;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+@media (min-width: 576px){
+    .phone-projects{
+        display: none;
+    }
+
+}

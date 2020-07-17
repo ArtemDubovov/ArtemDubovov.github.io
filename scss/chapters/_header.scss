@@ -50,8 +50,8 @@
         background-color: rgb(0, 0, 0,);
         padding: 26px 20px 0px 20px;
         transition: all 1s;
-        animation-name: menuClose;
         transform: translateX(0%);
+        overflow: hidden;
     }
     .header__litle-menu-wrapper{
         display: flex;
@@ -124,6 +124,9 @@
 @media (min-width: 320px){
     .header{
         padding-top: 26px;
+        .container__header--main_phone{
+            padding: 0px 20px;
+        }
         .container__header{
             .header__litle-menu{
                 border: none;

@@ -7,9 +7,9 @@
     <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
     <link rel="stylesheet" href="./css/style.min.css">
 </head>
-<body>
+<body class="phone_adaptive">
     <header class="header">
-        <div class="container container__header">
+        <div class="container container__header container__header--main_phone">
             <div class="header__logo">
                 <a href="./index.html" class="header__logo-link"><img src="./icons/logo.png" alt="logo"></a>
             </div>
@@ -30,9 +30,22 @@
         </div>
     </header>
     <section class="phone__index">  
+        <div class="container container__phone ">
         <div class="phone__index-title">Соединяем бизнес <br>с потребителями</div>
         <div class="phone__index-subtitle">Разрабатываем и развиваем бренды <br> по всей планете</div>
+    </div>
     </section>
+    <div class="phone_carousel">
+        <button class="arrow_down"><img src="./icons/Group 6@3x.png" alt=""></button>
+        <button class="arrow_up"><img src="./icons/Group 7@3x.png" alt=""></button>
+        <div class="phone_carousel__wrapper">
+            <div><img class="img-carousel img-1" src="./img/phone_carousel/Prikosnovenie06.png" alt=""></div>
+            <div><img class="img-carousel img-2" src="./img/phone_carousel/Prikosnovenie08.png" alt=""></div>
+            <div><img class="img-carousel img-3" src="./img/phone_carousel/Prikosnovenie10.png" alt=""></div>
+            <div><img class="img-carousel img-4" src="./img/phone_carousel/6.1.png" alt=""></div>
+            <div><img class="img-carousel action" src="./img/phone_carousel/10.png" alt=""></div>
+        </div>
+    </div>
     <section class="carousel">
         <div class="container">
             <div id="carousel" class="carousel__inner">
@@ -51,7 +64,7 @@
             </div>
         </div>
     </section>
-    <main class="main">
+    <main class="main main-index">
         <div class="container">
             <h2 class="main__title">Наши работы</h2>
             <div class="main__catalog">
@@ -171,6 +184,7 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="./js/slick.min.js"></script>
     <script src="./js/phone_menu.js"></script>
+    <script src="./js/phone_carousel.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>

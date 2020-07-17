@@ -100,10 +100,20 @@
     min-height: 591px;
 }
 @media (min-width: 320px){
-
+    .footer__wrapper-item{
+        display: none;
+    }
+    .footer-home{
+        display: none;
+    }
 }
 @media (min-width: 575.98px){
-
+    .footer-home{
+        display: block;
+    }
+    .footer__wrapper-item{
+        display: block;
+    }
 }
 @media (min-width: 991.98px){
 
