@@ -24,7 +24,7 @@ let carouselClasses = [classCarouselInvisibleBack,classCarouselOne, classCarouse
 
 let index = 2;
 
-buttonUp.onclick = function () {
+buttonDown.onclick = function () {
     if (index > 5) {
         return;
     } else {
@@ -41,7 +41,7 @@ buttonUp.onclick = function () {
     }
     console.log(index);
 };
-buttonDown.onclick = function () {
+buttonUp.onclick = function () {
     if (index === 2) {
         return;
     }

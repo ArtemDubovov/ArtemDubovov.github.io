@@ -89,7 +89,7 @@
         height: auto;
         border: none;
         transition: all 0.3s; 
-        border-radius: 14px;
+        border-radius: 30px;
     }
     .img--invisible-back{
         opacity: 0;
@@ -209,19 +209,19 @@
         z-index: 9;
     }
     .arrow_up{
-        top: 300px;
+        top: 240px;
         left: 0;
         right: 0;
         img{
-            width: 30px;
+            width: 40px;
         }
     }
     .arrow_down{
-        top: 430px;
+        top: 400px;
         left: 0;
         right: 0;
         img{
-            width: 100px;
+            width: 59px;
         }
     }
 }
