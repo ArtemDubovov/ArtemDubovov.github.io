@@ -63,25 +63,52 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 
 .phone_carousel { max-width: 500px; margin: 0 auto; }
 .phone_carousel .phone_carousel__wrapper { position: relative; max-width: 375px; margin: 570px auto 0px; }
-.phone_carousel .img-carousel { display: block; margin: 0 auto; height: auto; border: none; -webkit-transition: all 0.3s; transition: all 0.3s; border-radius: 30px; }
+.phone_carousel .img-carousel { display: block; margin: 0 auto; border: none; -webkit-transition: all 0.3s; transition: all 0.3s; border-radius: 30px; position: relative; }
 .phone_carousel .img--invisible-back { opacity: 0; }
 .phone_carousel .img--invisible-front { opacity: 0; }
-.phone_carousel .img-1 { position: absolute; z-index: 1; bottom: 342px; height: 113px; width: 40%; opacity: 0.5; left: 0; right: 0; }
-.phone_carousel .img-2 { position: absolute; bottom: 254px; height: 181px; width: 55%; z-index: 2; opacity: 0.5; left: 0; right: 0; }
-.phone_carousel .img-3 { position: absolute; bottom: 166px; height: 249px; width: 70%; z-index: 3; opacity: 0.5; left: 0; right: 0; }
-.phone_carousel .img-4 { position: absolute; bottom: 88px; height: 307px; width: 85%; z-index: 4; left: 0; right: 0; opacity: 0.75; }
-.phone_carousel .action { position: absolute; bottom: 0px; height: 375px; width: 100%; z-index: 5; left: 0; right: 0; opacity: 1; }
-.phone_carousel .img-6 { position: absolute; bottom: 0px; height: 400px; width: 100%; z-index: 0; opacity: 0; left: 0; right: 0; }
-.phone_carousel .img-7 { position: absolute; z-index: 1; bottom: 342px; height: 113px; width: 113px; opacity: 0.5; left: 0; right: 0; }
-.phone_carousel .img-8 { position: absolute; bottom: 254px; height: 181px; width: 181px; z-index: 2; opacity: 0.5; left: 0; right: 0; }
-.phone_carousel .img-9 { position: absolute; bottom: 166px; height: 249px; width: 249px; z-index: 3; opacity: 0.5; left: 0; right: 0; }
-.phone_carousel .img-10 { position: absolute; bottom: 88px; height: 307px; width: 307px; z-index: 4; left: 0; right: 0; opacity: 0.75; }
+.phone_carousel .img-1 { position: absolute; z-index: 1; bottom: calc(320px + (100vw - 375px) / 0.75); width: 40%; opacity: 0.5; left: 0; right: 0; }
+.phone_carousel .img-2 { position: absolute; bottom: calc(240px + (100vw - 375px) / 1); width: 55%; z-index: 2; opacity: 0.5; left: 0; right: 0; }
+.phone_carousel .img-3 { position: absolute; bottom: calc(160px + (100vw - 375px) / 1.5); width: 70%; z-index: 3; opacity: 0.5; left: 0; right: 0; }
+.phone_carousel .img-4 { position: absolute; bottom: calc(80px + (100vw - 375px) / 3); width: 85%; z-index: 4; left: 0; right: 0; opacity: 0.75; }
+.phone_carousel .action { position: absolute; bottom: 0px; width: 100%; z-index: 5; left: 0; right: 0; opacity: 1; }
+.phone_carousel .img-6 { position: absolute; bottom: calc(320px + (100vw - 375px) / 0.75 ); width: 100%; z-index: 0; opacity: 0; left: 0; right: 0; }
+.phone_carousel .img-7 { position: absolute; z-index: 1; bottom: calc(320px + (100vw - 375px) / 0.75 ); width: 40%; opacity: 0.5; left: 0; right: 0; }
+.phone_carousel .img-8 { position: absolute; bottom: calc(240px + (100vw - 375px) / 1 ); width: 55%; z-index: 2; opacity: 0.5; left: 0; right: 0; }
+.phone_carousel .img-9 { position: absolute; bottom: calc(160px + (100vw - 375px) / 1.5); width: 70%; z-index: 3; opacity: 0.5; left: 0; right: 0; }
+.phone_carousel .img-10 { position: absolute; bottom: calc(80px + (100vw - 375px) / 3); width: 85%; z-index: 4; left: 0; right: 0; opacity: 0.75; }
 .phone_carousel button { display: block; position: absolute; width: 200px; height: 100px; margin: 20px auto; border: none; outline: none; background-color: transparent; z-index: 9; }
 .phone_carousel .arrow_up { top: 240px; left: 0; right: 0; }
 .phone_carousel .arrow_up img { width: 40px; }
 .phone_carousel .arrow_down { top: 400px; left: 0; right: 0; }
 .phone_carousel .arrow_down img { width: 59px; }
 
+@media (min-width: 320px) and (max-width: 375px) { .phone_carousel .img--invisible-back { opacity: 0; }
+  .phone_carousel .img--invisible-front { opacity: 0; }
+  .phone_carousel .img-1 { bottom: calc(320px + (100vw - 375px) / 1.25); }
+  .phone_carousel .img-2 { bottom: calc(240px + (100vw - 375px) / 1.75); }
+  .phone_carousel .img-3 { bottom: calc(160px + (100vw - 375px) / 2.5); }
+  .phone_carousel .img-4 { bottom: calc(80px + (100vw - 375px) / 5); }
+  .phone_carousel .action { bottom: 0px; }
+  .phone_carousel .img-7 { bottom: calc(320px + (100vw - 375px) / 1.25 ); }
+  .phone_carousel .img-8 { bottom: calc(240px + (100vw - 375px) / 1.75 ); }
+  .phone_carousel .img-9 { bottom: calc(160px + (100vw - 375px) / 2.5); }
+  .phone_carousel .img-10 { bottom: calc(80px + (100vw - 375px) / 5); }
+  .phone_carousel .arrow_up { top: calc((240px + (375px - 100vw) * 2)); left: 0; right: 0; }
+  .phone_carousel .arrow_up img { width: 40px; }
+  .phone_carousel .arrow_down { top: calc((400px + (375px - 100vw)* 2.2)); left: 0; right: 0; }
+  .phone_carousel .arrow_down img { width: 59px; } }
+@media (min-width: 376px) { .phone_carousel .img--invisible-back { opacity: 0; }
+  .phone_carousel .img--invisible-front { opacity: 0; }
+  .phone_carousel .img-1 { bottom: 320px; }
+  .phone_carousel .img-2 { bottom: 240px; }
+  .phone_carousel .img-3 { bottom: 160px; }
+  .phone_carousel .img-4 { bottom: 80px; }
+  .phone_carousel .action { bottom: 0px; }
+  .phone_carousel .img-6 { bottom: 320px; }
+  .phone_carousel .img-7 { bottom: 320px; }
+  .phone_carousel .img-8 { bottom: 240px; }
+  .phone_carousel .img-9 { bottom: 160px; }
+  .phone_carousel .img-10 { bottom: 80px; } }
 @media (min-width: 320px) { .phone_carousel { display: block; } }
 @media (min-width: 575.98px) { .phone_carousel { display: none; } }
 @media (min-width: 1199.98px) { .carousel .carousel__content { font-size: 15px; }
@@ -108,7 +135,8 @@ body { background-color: #fff; padding: 0 72px; overflow-y: scroll; }
 .main .main-index .main__wrapper { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 .main .main-index .main__wrapper .main__wrapper-item { width: 100%; }
 
-@media (min-width: 320px) and (max-width: 575.98px) { .phone_adaptive { padding: 0px; }
+@media (min-width: 320px) and (max-width: 575.98px) { .main { padding-top: 90px; }
+  .phone_adaptive { padding: 0px; }
   .container__phone { padding: 0px 20px; }
   .main-index { padding-top: 90px; display: none; }
   .main-index .main-catalog { display: none; }

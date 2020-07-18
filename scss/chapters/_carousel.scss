@@ -86,10 +86,10 @@
     .img-carousel{
         display: block;
         margin: 0 auto;
-        height: auto;
         border: none;
         transition: all 0.3s; 
         border-radius: 30px;
+        position: relative;
     }
     .img--invisible-back{
         opacity: 0;
@@ -100,8 +100,7 @@
     .img-1{
         position: absolute;
         z-index: 1;
-        bottom: 342px;
-        height: 113px;
+        bottom: calc(320px + (100vw - 375px) / 0.75);
         width: 40%;
         opacity: 0.5;
         left: 0;
@@ -109,8 +108,7 @@
     }
     .img-2{
         position: absolute;
-        bottom: 254px;
-        height: 181px;
+        bottom: calc(240px + (100vw - 375px) / 1);
         width: 55%;
         z-index: 2;
         opacity: 0.5;
@@ -119,8 +117,7 @@
     }
     .img-3{
         position: absolute;
-        bottom: 166px;
-        height: 249px;
+        bottom:  calc(160px + (100vw - 375px) / 1.5);
         width: 70%;
         z-index: 3;
         opacity: 0.5;
@@ -129,8 +126,7 @@
     }
     .img-4{
         position: absolute;
-        bottom: 88px;
-        height: 307px;
+        bottom: calc(80px + (100vw - 375px) / 3);
         width: 85%;
         z-index: 4;
         left: 0;
@@ -140,7 +136,6 @@
     .action{
         position: absolute;
         bottom: 0px;
-        height: 375px;
         width: 100%;
         z-index: 5;
         left: 0;
@@ -149,8 +144,7 @@
     }
     .img-6{
         position: absolute;
-        bottom: 0px;
-        height: 400px;
+        bottom: calc(320px + (100vw - 375px) / 0.75 );
         width: 100%;
         z-index: 0;
         opacity: 0;
@@ -160,18 +154,16 @@
     .img-7{
         position: absolute;
         z-index: 1;
-        bottom: 342px;
-        height: 113px;
-        width: 113px;
+        bottom: calc(320px + (100vw - 375px) / 0.75 );
+        width: 40%;
         opacity: 0.5;
         left: 0;
         right: 0;
     }
     .img-8{
         position: absolute;
-        bottom: 254px;
-        height: 181px;
-        width: 181px;
+        bottom: calc(240px + (100vw - 375px) / 1 );
+        width: 55%;
         z-index: 2;
         opacity: 0.5;
         left: 0;
@@ -179,9 +171,8 @@
     }
     .img-9{
         position: absolute;
-        bottom: 166px;
-        height: 249px;
-        width: 249px;
+        bottom: calc(160px + (100vw - 375px) / 1.5);
+        width: 70%;
         z-index: 3;
         opacity: 0.5;
         left: 0;
@@ -189,9 +180,8 @@
     }
     .img-10{
         position: absolute;
-        bottom: 88px;
-        height: 307px;
-        width: 307px;
+        bottom: calc(80px + (100vw - 375px) / 3);
+        width: 85%;
         z-index: 4;
         left: 0;
         right: 0;
@@ -222,6 +212,99 @@
         right: 0;
         img{
             width: 59px;
+        }
+    }
+}
+@media (min-width: 320px) and (max-width: 375px){
+    .phone_carousel{
+        .img--invisible-back{
+            opacity: 0;
+        }
+        .img--invisible-front{
+            opacity: 0;
+        }
+        .img-1{
+            bottom: calc(320px + (100vw - 375px) / 1.25);
+        }
+        .img-2{
+            bottom: calc(240px + (100vw - 375px) / 1.75);
+        }
+        .img-3{
+            bottom:  calc(160px + (100vw - 375px) / 2.5);
+        }
+        .img-4{
+            bottom: calc(80px + (100vw - 375px) / 5);
+        }
+        .action{
+            bottom: 0px;
+        }
+        .img-7{
+            bottom: calc(320px + (100vw - 375px) / 1.25 );
+        }
+        .img-8{
+            bottom: calc(240px + (100vw - 375px) / 1.75 );
+        }
+        .img-9{
+            bottom: calc(160px + (100vw - 375px) / 2.5);
+        }
+        .img-10{
+            bottom: calc(80px + (100vw - 375px) / 5);
+        }
+        .arrow_up{
+            top: calc((240px + (375px - 100vw) * 2));
+            left: 0;
+            right: 0;
+            img{
+                width: 40px;
+            }
+        }
+        .arrow_down{
+            top: calc((400px + (375px - 100vw)* 2.2));
+            left: 0;
+            right: 0;
+            img{
+                width: 59px;
+            }
+        }
+    }
+}
+@media (min-width: 376px){
+    .phone_carousel{
+        .img--invisible-back{
+            opacity: 0;
+        }
+        .img--invisible-front{
+            opacity: 0;
+        }
+        .img-1{
+            bottom: 320px;
+        }
+        .img-2{
+            bottom: 240px;
+        }
+        .img-3{
+            bottom: 160px;
+        }
+        .img-4{
+            bottom: 80px;
+        }
+        .action{
+            bottom: 0px;
+        }
+        .img-6{
+            bottom: 320px;
+        }
+        .img-7{
+            bottom: 320px;
+        }
+        .img-8{
+            bottom: 240px;
+        }
+        .img-9{
+            bottom: 160px;
+        }
+        .img-10{
+            bottom: 80px;
         }
     }
 }
