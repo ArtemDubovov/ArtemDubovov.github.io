@@ -46,7 +46,7 @@
         top: 0px;
         width: 100%;
         z-index: 10;
-        height: 800px;
+        height: 100%;
         background-color: rgb(0, 0, 0,);
         padding: 26px 20px 0px 20px;
         transition: all 1s;
@@ -154,8 +154,12 @@
 }
 @media (min-width: 575.98px){
     .header{
+        .container__header--main_phone{
+            padding: 0px 0px;
+        }
         padding-top: 57px;
         .container__header{
+            
             .header__litle-menu{
                 display: none;
             }

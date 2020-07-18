@@ -11,13 +11,22 @@
     <header class="header">
         <div class="container container__header">
             <div class="header__logo">
-                <a href="./../index.html" class="header__logo-link"><img src="./../icons/logo.png" alt="logo"></a>
+                <a href="./index.html" class="header__logo-link"><img src="./icons/logo.png" alt="logo"></a>
             </div>
-            <ul class="header__menu">
-                <li class="header__menu-item"><a class="header__menu-item-link" href="./../projects.html">Проекты</a></li>
-                <li class="header__menu-item"><a class="header__menu-item-link" href="./../we.html">Мы</a></li>
-                <li class="header__menu-item"><a class="header__menu-item-link" href="./../magazine.html">Журнал</a></li>
+            <button href="#" class="header__litle-menu">меню</button>
+            <ul class="header__menu ">
+                <li class="header__menu-item"><a class="header__menu-item-link" href="./projects.html">Проекты</a></li>
+                <li class="header__menu-item"><a class="header__menu-item-link" href="./we.html">Мы</a></li>
+                <li class="header__menu-item"><a class="header__menu-item-link" href="./magazine.html">Журнал</a></li>
             </ul>
+        </div>
+        <div class="header__litle-menu-back invisible"></div>
+        <div class="header__litle-menu-wrapper header__litle-menu-wrapper-invisible">
+            <div class="header__litle-menu-back-item"><button class="header__litle-menu-back-item-btn">закрыть</button></div>
+            <div class="header__litle-menu-back-item"><a class="header__litle-menu-back-item-link" href="./projects.html">Проекты</a></div>
+            <div class="header__litle-menu-back-item"><a class="header__litle-menu-back-item-link" href="./we.html">Мы</a></div>
+            <div class="header__litle-menu-back-item"><a class="header__litle-menu-back-item-link" href="./magazine.html">Журнал</a></div>
+            <div class="header__litle-menu-back-item header__menu-item-contact"><a class="header__litle-menu-back-item-link header__menu-item-link-contact" href="#">Связаться</a></div>
         </div>
     </header>
     <section class="carousel">
@@ -145,6 +154,7 @@
     </footer>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./../js/phone_menu.js"></script>
     <script src="./../js/magazine_item.js"></script>
 </body>
 </html>

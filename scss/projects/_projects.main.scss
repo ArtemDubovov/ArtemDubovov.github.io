@@ -78,12 +78,39 @@
 
 
 
-@media (min-width: 320px){
+@media (min-width: 320px) and (max-width: 575px){
     .main-projects{
         .container{
             max-width: 100%;
             .main__menu-item{
                 font-size: 24px;
+            }
+        }
+    }
+    .main{
+        .container{
+            .main__catalog{
+                .main__catalog-item{
+                    flex: 1 1 100%;
+                    margin-top: 40px;
+                    .main__catalog-image{
+                        border-radius: 30px;
+                    }
+                }
+            }
+            .main__menu-project{
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .main__menu-item{
+                    font-size: 18px;
+                    margin-top: 20px;
+                }
+                .f-all{
+                    order: -2;
+                }
+                .f-news{
+                    order: -1;
+                }
             }
         }
     }
@@ -107,6 +134,7 @@
             }
             .main__catalog{
                 .main__catalog-item{
+
                 }
             }
         }
